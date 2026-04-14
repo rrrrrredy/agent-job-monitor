@@ -12,9 +12,9 @@
 - **Fix**: Must use `playwright` to let the browser execute JS, then intercept network requests for the signed API response
 - **Verified**: 2026-04-10
 
-### ⚠️ agent-browser doesn't support CONNECT proxy (Feishu ATS can't use agent-browser)
-- **Symptom**: agent-browser (built-in Playwright) opening `vrfi1sk8a0.jobs.feishu.cn` reports `net::ERR_TUNNEL_CONNECTION_FAILED`
-- **Root cause**: agent-browser's Playwright instance doesn't support CONNECT tunnel proxies
+### ⚠️ Old browser CLI didn't support CONNECT proxy
+- **Symptom**: standard Playwright opening `vrfi1sk8a0.jobs.feishu.cn` reports `net::ERR_TUNNEL_CONNECTION_FAILED`
+- **Root cause**: the old browser CLI didn't support CONNECT tunnel proxies
 - **Fix**: Use system-level `playwright` Python library (`from playwright.sync_api import sync_playwright`), pass `proxy={"server": "..."}` in `launch()`
 - **Verified**: 2026-04-10
 
@@ -58,7 +58,7 @@
 ### ⚠️ Alibaba IP blocking 403 (exit IP flagged)
 - **Symptom**: `talent.alibaba.com/position/search` and `careers.aliyun.com` both return 403
 - **Root cause**: Exit IP flagged by Alibaba's risk control
-- **Fallback**: agent-browser (Playwright rendering) — slower but bypasses risk control
+- **Fix**: Use Playwright headless browser rendering — slower but bypasses IP-based risk control
 - **Note**: Both direct and proxied connections return 403; must use browser
 - **Verified**: 2026-04-10
 

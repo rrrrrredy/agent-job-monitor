@@ -28,22 +28,22 @@
 
 ---
 
-## Alibaba ✅ (agent-browser fallback)
+## Alibaba ✅ (Playwright DOM)
 
 - **Actual portal**: `https://talent-holding.alibaba.com` (holding group, not talent.alibaba.com)
 - **Direct API**: `POST https://talent.alibaba.com/position/search` → **❌ 403 (exit IP blocked by Alibaba risk control)**
-- **Fallback**: agent-browser rendering — fill search box `input[placeholder="输入关键词搜索职位"]` → Enter → DOM scrape `.job-card` list
+- **Fallback**: Playwright rendering — fill search box `input[placeholder="输入关键词搜索职位"]` → Enter → DOM scrape `.job-card` list
 - **Note**: URL keyword parameter doesn't work with SPA; must fill search box to trigger filter
 - **Parse format A** (Alibaba holding): `Title\nUpdated DATE\nCategory-Type\nCity` (4 lines)
 - **Known count**: ~11 L1 jobs (2026-04-10)
 
 ---
 
-## Aliyun ✅ (agent-browser fallback)
+## Aliyun ✅ (Playwright DOM)
 
 - **Portal**: https://careers.aliyun.com
 - **Direct API**: `POST https://careers.aliyun.com/campus-recruitment/position/list` → **❌ 403**
-- **Fallback**: agent-browser rendering, same approach as Alibaba
+- **Fallback**: Playwright rendering, same approach as Alibaba
 - **Parse format B** (Aliyun): `Title\nUpdated DATE\nCity` (3 lines, no category)
 - **Distinguishing A/B**: Regex `^[\u4e00-\u9fa5]+类[-—]` matches category line
 - **Known count**: ~17 L1 jobs (2026-04-10)
@@ -56,7 +56,7 @@
 - **Official site**: `https://www.zhipuai.cn/about/join` → **❌ 404 (page doesn't exist)**
 - **Actual collection portal**: `https://app.mokahr.com/social-recruitment/zphz/148983` (experienced hire)
 - **Campus**: `https://app.mokahr.com/campus-recruitment/zphz/148984`
-- **Method**: agent-browser opens `#/jobs?keyword=Agent`, DOM selector `a[href*="#/job/"]`
+- **Method**: Playwright opens `#/jobs?keyword=Agent`, DOM selector `a[href*="#/job/"]`
 - **Note**: mokahr API data is encrypted (`necromancer` field), must use DOM approach
 - **Known count**: ~5 L1 jobs (2026-04-10)
 
@@ -68,7 +68,7 @@
 - **Official site**: `https://www.moonshot.cn/careers`
 - **Actual collection portal**: `https://app.mokahr.com/apply/moonshot/148506` (experienced hire, orgId=148506)
 - **Campus**: `https://app.mokahr.com/campus-recruitment/moonshot/148507`
-- **Method**: Same as Zhipu, agent-browser DOM, `a[href*="#/job/"]`
+- **Method**: Same as Zhipu, Playwright DOM, `a[href*="#/job/"]`
 - **Known count**: ~13 L1 jobs (2026-04-10)
 
 ---
@@ -118,7 +118,7 @@ Reuse by passing `tenant_id` and `website_path`; rest of the logic is identical.
 ```
 1. Direct HTTP JSON API (ByteDance/Tencent)           — Fastest, zero browser overhead
 2. Playwright + proxy + request interception (Feishu ATS) — MiniMax, needs proxy, ~2-3min
-3. agent-browser DOM search box scraping (Alibaba/Zhipu/Kimi) — 5-10x slower, bypasses risk control
+3. Playwright DOM search box scraping (Alibaba/Zhipu/Kimi) — 5-10x slower, bypasses risk control
 4. BOSS/Liepin                                        — Abandoned (requires login)
 ```
 
@@ -129,8 +129,8 @@ Reuse by passing `tenant_id` and `website_path`; rest of the logic is identical.
 | Scenario | Status | Solution |
 |----------|--------|----------|
 | Tencent/ByteDance API direct | ✅ Normal | — |
-| Alibaba IP risk control | ❌ 403 | agent-browser (Playwright UA) |
+| Alibaba IP risk control | ❌ 403 | Playwright headless browser |
 | Feishu ATS exit IP blocked | ❌ | HTTP proxy (configure your own) + playwright |
 | Proxy POST method rewrite | ❌ ByteDance 405 | ByteDance/Tencent don't use proxy |
-| agent-browser CONNECT proxy | ❌ Not supported | Use system playwright instead |
+| Old CLI CONNECT proxy (historical) | ❌ Not supported | Use standard playwright (current approach) |
 | Camoufox + proxy | ❌ Missing libgtk-3 | Use system playwright (V2 approach) |

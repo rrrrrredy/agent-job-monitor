@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Agent 岗位每日采集脚本 v2.0
-支持：腾讯、字节跳动（直连 API）
-     阿里巴巴控股、阿里云（agent-browser DOM 方式，Playwright）
-     智谱AI、Kimi（mokahr DOM 方式）
-     MiniMax（飞书 ATS + Playwright + 上游代理，V2.0 新增）
-用法：python3 daily_collect.py [--date YYYY-MM-DD] [--company 腾讯]
+Agent Job Daily Collection Script v2.1
+Supported: Tencent, ByteDance (direct API)
+          Alibaba, Aliyun (Playwright DOM)
+          Zhipu AI, Kimi (mokahr Playwright DOM)
+          MiniMax (Feishu ATS + Playwright + HTTP proxy)
+Usage: python3 daily_collect.py [--date YYYY-MM-DD] [--company Tencent]
 """
 
 import argparse
@@ -35,22 +35,16 @@ def _check_dependencies():
             "  安装命令：pip install requests"
         )
 
-    # 2. agent-browser CLI（阿里/智谱/Kimi 采集依赖）
-    if shutil.which("agent-browser") is None:
-        errors.append(
-            "缺少命令 'agent-browser'（阿里/智谱/Kimi DOM 采集依赖）\n"
-            "  安装命令：npm i -g agent-browser && agent-browser install"
-        )
-
-    # 3. playwright（MiniMax 飞书 ATS 依赖，缺失降级为 WARNING）
+    # 2. playwright（阿里/智谱/Kimi/MiniMax 采集依赖）
     try:
         import playwright  # noqa: F401
     except ImportError:
-        warnings.append(
-            "缺少 Python 包 'playwright'（MiniMax 飞书 ATS 采集依赖）\n"
-            "  安装命令：pip install playwright && python3 -m playwright install chromium\n"
-            "  影响：MiniMax 将被跳过，其余公司不受影响"
+        errors.append(
+            "缺少 Python 包 'playwright'（浏览器采集依赖）\n"
+            "  安装命令：pip install playwright && python3 -m playwright install chromium"
         )
+
+
 
     if errors:
         print("=" * 60)
@@ -92,9 +86,9 @@ SNAPSHOTS_DIR = os.path.join(WORKSPACE_DIR, "snapshots")
 
 CST = timezone(timedelta(hours=8))
 
-# agent-browser 浏览器操作超时（ms）
-AB_WAIT_MS = 4000
-AB_LOAD_TIMEOUT = 20  # sec
+# Playwright browser operation timeout (ms)
+PW_WAIT_MS = 4000
+PW_LOAD_TIMEOUT = 20000  # ms
 
 # ─────────────────────────────────────────
 # 工具函数
@@ -125,7 +119,7 @@ def dedup_jobs(jobs: list) -> list:
     seen = set()
     result = []
     for j in jobs:
-        # 兼容无 id 字段的岗位（如飞书 ATS 采集的 MiniMax 岗位）
+        # Handle jobs without id field (e.g. Feishu ATS collected MiniMax jobs)
         job_id = j.get("id") or j.get("url") or f"{j.get('title','')}_{j.get('company','')}"
         if job_id not in seen:
             seen.add(job_id)
@@ -133,30 +127,113 @@ def dedup_jobs(jobs: list) -> list:
     return result
 
 
-def ab_run(*args, timeout=30) -> str:
-    """执行 agent-browser 命令，返回 stdout"""
+# ─────────────────────────────────────────
+# Playwright browser singleton (lazy init)
+# ─────────────────────────────────────────
+_pw_instance = None
+_pw_browser = None
+_pw_page = None
+
+
+def _find_chromium_executable() -> str | None:
+    """Auto-detect installed Chromium binary (handles version mismatch)."""
+    import glob as _glob
+    candidates = sorted(
+        _glob.glob("/opt/playwright/chromium-*/chrome-linux64/chrome"),
+        reverse=True,
+    )
+    if not candidates:
+        # Also check common locations
+        for path in ["/usr/bin/chromium", "/usr/bin/chromium-browser", "/usr/bin/google-chrome"]:
+            if os.path.exists(path):
+                return path
+    return candidates[0] if candidates else None
+
+
+def _get_browser_page():
+    """Get or create a Playwright browser page (singleton)."""
+    global _pw_instance, _pw_browser, _pw_page
+    if _pw_page is not None:
+        return _pw_page
+
+    from playwright.sync_api import sync_playwright
+    _pw_instance = sync_playwright().start()
+
+    launch_opts = {"headless": True}
+    proxy_url = os.environ.get("HTTP_PROXY") or os.environ.get("HTTPS_PROXY")
+    if proxy_url:
+        launch_opts["proxy"] = {"server": proxy_url}
+
+    _exec = _find_chromium_executable()
+    if _exec:
+        launch_opts["executable_path"] = _exec
+
+    _pw_browser = _pw_instance.chromium.launch(**launch_opts)
+    _pw_page = _pw_browser.new_page()
+    return _pw_page
+
+
+def _close_browser():
+    """Clean up Playwright browser."""
+    global _pw_instance, _pw_browser, _pw_page
+    if _pw_browser:
+        try:
+            _pw_browser.close()
+        except Exception:
+            pass
+    if _pw_instance:
+        try:
+            _pw_instance.stop()
+        except Exception:
+            pass
+    _pw_instance = _pw_browser = _pw_page = None
+
+
+def pw_navigate(url: str) -> bool:
+    """Navigate to URL and wait for load."""
+    page = _get_browser_page()
     try:
-        r = subprocess.run(["agent-browser"] + list(args), capture_output=True, text=True, timeout=timeout)
-        return r.stdout.strip()
-    except subprocess.TimeoutExpired:
-        print(f"  [WARN] agent-browser {args[0]} 超时 {timeout}s")
-        return ""
+        page.goto(url, timeout=PW_LOAD_TIMEOUT, wait_until="networkidle")
+        page.wait_for_timeout(PW_WAIT_MS)
+        return True
     except Exception as e:
-        print(f"  [WARN] agent-browser {args[0]} 错误: {e}")
+        print(f"  [WARN] Navigation to {url} failed: {e}")
+        return False
+
+
+def pw_eval(js: str) -> str:
+    """Execute JavaScript and return result as string."""
+    page = _get_browser_page()
+    try:
+        result = page.evaluate(js)
+        return str(result) if result is not None else ""
+    except Exception as e:
+        print(f"  [WARN] JS eval failed: {e}")
         return ""
 
 
-def ab_navigate(url: str) -> bool:
-    """导航到 URL，等待 networkidle"""
-    ab_run("navigate", url, timeout=AB_LOAD_TIMEOUT + 5)
-    ab_run("wait", "--load", "networkidle", timeout=AB_LOAD_TIMEOUT)
-    ab_run("wait", str(AB_WAIT_MS), timeout=10)
-    return True
+def pw_fill(selector: str, text: str):
+    """Fill a form field."""
+    page = _get_browser_page()
+    try:
+        page.fill(selector, text, timeout=10000)
+    except Exception as e:
+        print(f"  [WARN] Fill {selector} failed: {e}")
 
 
-def ab_eval(js: str) -> str:
-    """执行 JS，返回结果字符串"""
-    return ab_run("eval", js, timeout=15)
+def pw_press(selector: str, key: str):
+    """Press a key on an element."""
+    page = _get_browser_page()
+    try:
+        page.press(selector, key, timeout=10000)
+    except Exception as e:
+        print(f"  [WARN] Press {key} on {selector} failed: {e}")
+
+
+def pw_wait(ms: int):
+    """Wait for specified milliseconds."""
+    page = _get_browser_page()
+    page.wait_for_timeout(ms)
 
 
 # ─────────────────────────────────────────
@@ -228,17 +305,17 @@ def parse_ali_page_text(text: str, company: str) -> tuple[int, list]:
 
 def collect_ali_browser(base_page_url: str, company: str, keywords: list, max_pages: int = 20) -> dict:
     """
-    通用阿里系招聘页采集（agent-browser DOM）
+    Generic Alibaba-family job page collection (Playwright DOM)
     base_page_url: 职位列表页 URL（不含 keyword 参数），如
       https://careers.aliyun.com/off-campus/position-list?lang=zh
-    策略：导航到职位列表页 → 填搜索框 → Enter → 翻页提取
-    注：URL keyword 参数对 SPA 无效，必须通过填写搜索框触发过滤
+    Strategy: navigate to job list page → fill search box → Enter → paginate
+    Note: URL keyword params don't work for SPA, must use search box to trigger filter
     """
-    print(f"[{company}] 开始采集（agent-browser）...")
+    print(f"[{company}] Starting collection (Playwright)...")
     all_jobs = []
     errors = []
 
-    # 找搜索框 selector（两个站点一致）
+    # Search box selector (consistent across both sites)
     SEARCH_SELECTORS = [
         'input[placeholder="输入关键词搜索职位"]',
         'input[placeholder="搜索职位关键词"]',
@@ -250,16 +327,16 @@ def collect_ali_browser(base_page_url: str, company: str, keywords: list, max_pa
         print(f"  [{company}] 关键词={kw}")
 
         # 导航到列表页
-        ab_navigate(base_page_url)
+        pw_navigate(base_page_url)
 
-        # 找并填搜索框
+        # Find and fill search box
         filled = False
         for sel in SEARCH_SELECTORS:
-            check = ab_eval(f'document.querySelector({json.dumps(sel)}) ? "found" : "not"')
+            check = pw_eval(f'document.querySelector({json.dumps(sel)}) ? "found" : "not"')
             if "found" in check:
-                ab_run("fill", sel, kw, timeout=10)
-                ab_run("press", sel, "Enter", timeout=10)
-                ab_run("wait", "4000", timeout=8)
+                pw_fill(sel, kw)
+                pw_press(sel, "Enter")
+                pw_wait(4000)
                 filled = True
                 break
 
@@ -268,8 +345,8 @@ def collect_ali_browser(base_page_url: str, company: str, keywords: list, max_pa
             errors.append(f"keyword={kw} 搜索框未找到")
             continue
 
-        # 第一页
-        text = ab_eval("document.body.innerText")
+        # First page
+        text = pw_eval("document.body.innerText")
         if not text:
             errors.append(f"keyword={kw} 页面加载失败")
             continue
@@ -284,7 +361,7 @@ def collect_ali_browser(base_page_url: str, company: str, keywords: list, max_pa
         per_page = len(page_jobs) if len(page_jobs) > 0 else 10
         total_pages = min(max_pages, (total + per_page - 1) // per_page)
 
-        # 翻页
+        # Pagination
         for page in range(2, total_pages + 1):
             next_js = """
 (function() {
@@ -301,13 +378,13 @@ def collect_ali_browser(base_page_url: str, company: str, keywords: list, max_pa
   return 'not_found';
 })()
 """
-            result = ab_eval(next_js)
+            result = pw_eval(next_js)
             if "not_found" in result:
                 print(f"    找不到下一页，停止于第{page-1}页")
                 break
 
-            ab_run("wait", "3000", timeout=8)
-            text = ab_eval("document.body.innerText")
+            pw_wait(3000)
+            text = pw_eval("document.body.innerText")
             _, page_jobs = parse_ali_page_text(text, company)
             print(f"    第{page}页 {len(page_jobs)} 条")
             if not page_jobs:
@@ -353,16 +430,16 @@ def collect_mokahr_browser(base_url: str, company: str, keywords: list) -> dict:
     mokahr DOM 采集
     base_url: 如 https://app.mokahr.com/social-recruitment/zphz/148983?locale=zh-CN
     """
-    print(f"[{company}] 开始采集（mokahr DOM）...")
+    print(f"[{company}] Starting collection (mokahr Playwright)...")
     all_jobs = []
     errors = []
 
     for kw in keywords:
         url = f"{base_url}#/jobs?keyword={kw}"
         print(f"  [{company}] 关键词={kw}")
-        ab_navigate(url)
+        pw_navigate(url)
 
-        raw = ab_eval(MOKAHR_JOB_JS)
+        raw = pw_eval(MOKAHR_JOB_JS)
         try:
             # raw 可能带引号
             raw_clean = raw.strip()
@@ -379,7 +456,7 @@ def collect_mokahr_browser(base_url: str, company: str, keywords: list) -> dict:
             title = item.get("title", "")
             if not title or len(title) < 2:
                 continue
-            # 关键词过滤：确保标题或岗位确实相关（mokahr 搜索可能返回噪音）
+            # Keyword filter: ensure title is relevant (mokahr search may return noise)
             kw_match = any(k.lower() in title.lower() for k in L1_KEYWORDS)
             if not kw_match and kw not in ["Agent", "agent", "智能体"]:
                 continue
@@ -396,7 +473,7 @@ def collect_mokahr_browser(base_url: str, company: str, keywords: list) -> dict:
         time.sleep(0.5)
 
     all_jobs = dedup_jobs(all_jobs)
-    # 二次过滤：确保至少有一个 L1 关键词在标题中
+    # Second filter: ensure at least one L1 keyword in title
     filtered = [j for j in all_jobs if any(k.lower() in j["title"].lower() for k in L1_KEYWORDS)]
     print(f"[{company}] 采集完成，共 {len(filtered)} 条（原始{len(all_jobs)}条，过滤噪音后）")
     return {"total": len(filtered), "jobs": filtered, "errors": errors}
@@ -516,8 +593,8 @@ def collect_bytedance(keywords: list) -> dict:
 
 
 # ─────────────────────────────────────────
-# 阿里巴巴控股集团（agent-browser DOM）
-# 含达摩院、通义实验室等 AI 研究机构
+# Alibaba Group (Playwright DOM)
+# Including DAMO Academy, Tongyi Labs, etc.
 # ─────────────────────────────────────────
 def collect_alibaba(keywords: list) -> dict:
     return collect_ali_browser(
@@ -529,7 +606,7 @@ def collect_alibaba(keywords: list) -> dict:
 
 
 # ─────────────────────────────────────────
-# 阿里云（agent-browser DOM）
+# Aliyun (Playwright DOM)
 # ─────────────────────────────────────────
 def collect_aliyun(keywords: list) -> dict:
     return collect_ali_browser(
@@ -541,7 +618,7 @@ def collect_aliyun(keywords: list) -> dict:
 
 
 # ─────────────────────────────────────────
-# 智谱AI（agent-browser mokahr DOM）
+# Zhipu AI (mokahr Playwright DOM)
 # ─────────────────────────────────────────
 def collect_zhipu(keywords: list) -> dict:
     return collect_mokahr_browser(
@@ -552,7 +629,7 @@ def collect_zhipu(keywords: list) -> dict:
 
 
 # ─────────────────────────────────────────
-# Kimi（月之暗面）（agent-browser mokahr DOM）
+# Kimi (Moonshot) (mokahr Playwright DOM)
 # ─────────────────────────────────────────
 def collect_kimi(keywords: list) -> dict:
     return collect_mokahr_browser(
@@ -793,6 +870,9 @@ def main():
     if errors:
         print(f"⚠️  {len(errors)} 家公司采集出错：{[e['company'] for e in errors]}")
     print(f"{'='*50}\n")
+
+    # Cleanup browser
+    _close_browser()
 
     return 0
 

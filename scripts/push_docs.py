@@ -2,7 +2,7 @@
 """
 Agent Job Report Generator & Publisher (V2 — Enhanced Insights)
 Reads today's diff + snapshot, generates detailed analysis report, publishes to docs platform
-Usage: python3 push_citadel.py [--date YYYY-MM-DD] [--parent-id <parentId>]
+Usage: python3 push_docs.py [--date YYYY-MM-DD] [--parent-id <parentId>]
 """
 
 import argparse
@@ -664,7 +664,7 @@ def build_report(date_str: str, diff: dict, snapshot: dict | None,
     return "\n".join(lines)
 
 
-def push_to_citadel(title: str, content: str, parent_id: str | None) -> tuple[bool, str]:
+def push_to_docs(title: str, content: str, parent_id: str | None) -> tuple[bool, str]:
     """Push report to docs platform, returns (success, doc_url)"""
     docs_push_path = shutil.which("docs-push")
     if not docs_push_path:
@@ -745,7 +745,7 @@ def main():
     print(f"本地报告已保存：{local_path}")
 
     title = f"Agent岗位日报 {today}"
-    success, doc_url = push_to_citadel(title, report_md, args.parent_id)
+    success, doc_url = push_to_docs(title, report_md, args.parent_id)
 
     if not success:
         print(f"[WARNING] Docs publish failed, local report saved: {local_path}")

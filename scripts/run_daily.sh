@@ -28,16 +28,10 @@ if ! python3 -c "import requests" &>/dev/null 2>&1; then
     MISSING_DEPS=1
 fi
 
-if ! command -v agent-browser &>/dev/null; then
-    echo "⚠️  Missing agent-browser (Alibaba/Zhipu/Kimi collection will be skipped)"
-    echo "   Install: npm i -g agent-browser && agent-browser install"
-fi
-
 if ! python3 -c "import playwright" &>/dev/null 2>&1; then
-    echo "⚠️  Missing playwright (MiniMax collection will be skipped)"
+    echo "⚠️  Missing playwright (Alibaba/Aliyun/Zhipu/Kimi/MiniMax collection will be skipped)"
     echo "   Install: pip install playwright && python3 -m playwright install chromium"
 fi
-
 
 if [ "$MISSING_DEPS" -eq 1 ]; then
     echo ""
@@ -55,12 +49,9 @@ python3 "$SCRIPT_DIR/daily_collect.py" --date "$DATE"
 echo "--- Step 2: Diff ---"
 python3 "$SCRIPT_DIR/daily_diff.py" --date "$DATE"
 
-# Step 3: IM Notification
-# Note: IM notification is handled by the cron agent via the message tool.
-# Reason: subprocess-launched CLI is a separate process without bridge connection, cannot send IM.
-# The cron agent's internal message tool uses the main process bridge client, which is stable and reliable.
-echo "--- Step 3: IM Notification (handled by cron agent message tool) ---"
-echo "Collection + diff complete. IM notification delegated to cron agent."
+# Step 3: Report (optional — generates local report, publishes if docs-push CLI is available)
+echo "--- Step 3: Report ---"
+python3 "$SCRIPT_DIR/push_docs.py" --date "$DATE" || echo "⚠️  Report generation skipped or failed"
 
 echo ""
 echo "End time: $(date '+%Y-%m-%d %H:%M:%S')"

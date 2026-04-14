@@ -8,21 +8,9 @@ echo "🔍 Checking agent-job-monitor dependencies..."
 
 MISSING=0
 
-# Dependency 1: agent-browser Skill
+# Dependency 1: Python packages (requests + playwright)
 echo ""
-echo "--- Dependency 1: agent-browser Skill ---"
-if [ -f ~/.openclaw/skills/agent-browser/SKILL.md ] || [ -f /app/skills/agent-browser/SKILL.md ]; then
-  echo "✅ agent-browser Skill installed"
-else
-  echo "⚠️  agent-browser Skill not installed (affects 4/7 company collection)"
-  MISSING=1
-  echo "📦 Please install agent-browser Skill:"
-  echo "   git clone https://github.com/rrrrrredy/agent-browser ~/.openclaw/skills/agent-browser"
-fi
-
-# Dependency 2: Python packages (requests + playwright)
-echo ""
-echo "--- Dependency 2: Python packages ---"
+echo "--- Dependency 1: Python packages ---"
 PIP_MISSING=0
 
 if python3 -c "import requests" &>/dev/null; then
@@ -45,9 +33,9 @@ if [ "$PIP_MISSING" -eq 1 ]; then
   pip install requests playwright
 fi
 
-# Check playwright chromium browser
+# Dependency 2: Playwright Chromium browser
 echo ""
-echo "--- Playwright Chromium Browser ---"
+echo "--- Dependency 2: Playwright Chromium Browser ---"
 if python3 -c "
 from playwright.sync_api import sync_playwright
 with sync_playwright() as p:
@@ -63,8 +51,17 @@ else
   python3 -m playwright install chromium || {
     echo "❌ Chromium download failed. Behind corporate network? Try:"
     echo "   PLAYWRIGHT_DOWNLOAD_HOST=https://your-mirror python3 -m playwright install chromium"
-    echo "   Only MiniMax collection depends on Playwright; other 6/7 companies unaffected"
   }
+fi
+
+# Dependency 3: HTTP Proxy (optional, for MiniMax Feishu ATS)
+echo ""
+echo "--- Dependency 3: HTTP Proxy (optional) ---"
+if [ -n "$HTTP_PROXY" ] || [ -n "$HTTPS_PROXY" ]; then
+  echo "✅ HTTP_PROXY configured: ${HTTP_PROXY:-$HTTPS_PROXY}"
+else
+  echo "ℹ️  No HTTP_PROXY set (only needed if your IP is blocked by Feishu ATS for MiniMax)"
+  echo "   To configure: export HTTP_PROXY=http://your-proxy:port"
 fi
 
 if [ "$MISSING" -eq 0 ]; then
@@ -78,7 +75,6 @@ fi
 # Final verification
 echo ""
 echo "🔍 Final verification..."
-([ -f ~/.openclaw/skills/agent-browser/SKILL.md ] || [ -f /app/skills/agent-browser/SKILL.md ]) && echo "✅ agent-browser" || echo "❌ agent-browser missing"
 python3 -c "import requests; print('✅ requests')" 2>/dev/null || echo "❌ requests missing"
 python3 -c "import playwright; print('✅ playwright')" 2>/dev/null || echo "❌ playwright missing"
 
