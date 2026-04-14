@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Agent Job IM Notification Script
-Reads today's diff + snapshot, generates concise daily report message, sends via openclaw message
-Usage: python3 notify_im.py [--date YYYY-MM-DD]
+Reads today's diff + snapshot, generates concise daily report message.
+Outputs to stdout by default. Optionally sends via webhook or saves to file.
+Usage: python3 notify_im.py [--date YYYY-MM-DD] [--webhook URL] [--output FILE]
 """
 
 import argparse
@@ -100,38 +101,41 @@ def build_im_message(date_str: str, diff: dict, snapshot: dict | None) -> str:
     return "\n".join(lines)
 
 
-def send_im_message(message: str, user_id: str = "") -> bool:
-    """Send notification via openclaw message tool"""
-    if not user_id:
-        print("[IM] No user ID configured, skipping notification")
-        return False
+def send_via_webhook(message: str, webhook_url: str) -> bool:
+    """Send notification via webhook (Slack/Discord/Feishu/Lark/generic webhook)."""
+    import requests as _req
     try:
-        result = subprocess.run(
-            [
-                "openclaw", "message", "send",
-                "--target", user_id,
-                "--message", message,
-            ],
-            capture_output=True, text=True, timeout=30
-        )
-        if result.returncode == 0:
-            print(f"[IM] Notification sent successfully")
+        # Attempt Slack/Discord-style payload first
+        payload = {"text": message, "content": message}
+        r = _req.post(webhook_url, json=payload, timeout=15)
+        if r.status_code < 300:
+            print(f"[IM] Notification sent via webhook (HTTP {r.status_code})")
             return True
         else:
-            print(f"[IM] Notification failed (returncode={result.returncode}): {result.stderr.strip()}")
+            print(f"[IM] Webhook returned HTTP {r.status_code}: {r.text[:200]}")
             return False
-    except subprocess.TimeoutExpired:
-        print("[IM] Notification timeout (30s)")
-        return False
     except Exception as e:
-        print(f"[IM] Notification error: {e}")
+        print(f"[IM] Webhook error: {e}")
+        return False
+
+
+def save_to_file(message: str, output_path: str) -> bool:
+    """Save notification message to a local file."""
+    try:
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(message)
+        print(f"[IM] Message saved to {output_path}")
+        return True
+    except Exception as e:
+        print(f"[IM] File save error: {e}")
         return False
 
 
 def main():
     parser = argparse.ArgumentParser(description="Agent Job IM Notification Script")
     parser.add_argument("--date", default=None, help="Date YYYY-MM-DD, defaults to today")
-    parser.add_argument("--user-id", default="", help="IM user ID for notifications")
+    parser.add_argument("--webhook", default="", help="Webhook URL for Slack/Discord/Feishu/Lark notifications")
+    parser.add_argument("--output", default="", help="Save message to file instead of sending")
     args = parser.parse_args()
 
     today = datetime.now(CST).strftime("%Y-%m-%d") if args.date is None else args.date
@@ -158,8 +162,21 @@ def main():
     message = build_im_message(today, diff, snapshot)
     print(f"[IM] Message preview:\n{message}\n")
 
-    success = send_im_message(message, args.user_id)
-    return 0 if success else 1
+    # Delivery: webhook > file > stdout
+    if args.webhook:
+        success = send_via_webhook(message, args.webhook)
+        return 0 if success else 1
+    elif args.output:
+        success = save_to_file(message, args.output)
+        return 0 if success else 1
+    else:
+        # Default: print to stdout (can be piped to any notification tool)
+        print("---")
+        print(message)
+        print("---")
+        print("[IM] No --webhook or --output specified. Message printed to stdout.")
+        print("     To send via webhook: --webhook https://hooks.slack.com/services/...")
+        return 0
 
 
 if __name__ == "__main__":
