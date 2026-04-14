@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+# setup.sh - First-use dependency detection and installation
+# Usage: bash scripts/setup.sh
+
+set -e
+
+echo "🔍 Checking agent-job-monitor dependencies..."
+
+MISSING=0
+
+# Dependency 1: agent-browser Skill
+echo ""
+echo "--- Dependency 1: agent-browser Skill ---"
+if [ -f ~/.openclaw/skills/agent-browser/SKILL.md ] || [ -f /app/skills/agent-browser/SKILL.md ]; then
+  echo "✅ agent-browser Skill installed"
+else
+  echo "⚠️  agent-browser Skill not installed (affects 4/7 company collection)"
+  MISSING=1
+  echo "📦 Please install agent-browser Skill:"
+  echo "   git clone https://github.com/rrrrrredy/agent-browser ~/.openclaw/skills/agent-browser"
+fi
+
+# Dependency 2: Python packages (requests + playwright)
+echo ""
+echo "--- Dependency 2: Python packages ---"
+PIP_MISSING=0
+
+if python3 -c "import requests" &>/dev/null; then
+  echo "✅ requests"
+else
+  echo "⚠️  requests not installed"
+  PIP_MISSING=1
+fi
+
+if python3 -c "import playwright" &>/dev/null; then
+  echo "✅ playwright"
+else
+  echo "⚠️  playwright not installed"
+  PIP_MISSING=1
+fi
+
+if [ "$PIP_MISSING" -eq 1 ]; then
+  MISSING=1
+  echo "📦 Installing Python dependencies..."
+  pip install requests playwright
+fi
+
+# Check playwright chromium browser
+echo ""
+echo "--- Playwright Chromium Browser ---"
+if python3 -c "
+from playwright.sync_api import sync_playwright
+with sync_playwright() as p:
+    b = p.chromium.launch(headless=True)
+    b.close()
+    print('ok')
+" &>/dev/null 2>&1; then
+  echo "✅ Playwright Chromium installed"
+else
+  echo "⚠️  Playwright Chromium not installed (~150MB download)"
+  MISSING=1
+  echo "📦 Downloading Playwright Chromium..."
+  python3 -m playwright install chromium || {
+    echo "❌ Chromium download failed. Behind corporate network? Try:"
+    echo "   PLAYWRIGHT_DOWNLOAD_HOST=https://your-mirror python3 -m playwright install chromium"
+    echo "   Only MiniMax collection depends on Playwright; other 6/7 companies unaffected"
+  }
+fi
+
+if [ "$MISSING" -eq 0 ]; then
+  echo ""
+  echo "✅ All dependencies ready"
+else
+  echo ""
+  echo "✅ Dependency installation complete (check above for any failures)"
+fi
+
+# Final verification
+echo ""
+echo "🔍 Final verification..."
+([ -f ~/.openclaw/skills/agent-browser/SKILL.md ] || [ -f /app/skills/agent-browser/SKILL.md ]) && echo "✅ agent-browser" || echo "❌ agent-browser missing"
+python3 -c "import requests; print('✅ requests')" 2>/dev/null || echo "❌ requests missing"
+python3 -c "import playwright; print('✅ playwright')" 2>/dev/null || echo "❌ playwright missing"
+
+echo "🎉 Setup complete, agent-job-monitor is ready to use"
