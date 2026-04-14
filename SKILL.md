@@ -24,12 +24,18 @@ bash scripts/setup.sh
 
 ## Prerequisites
 
-### 1. Python packages (required)
+### 1. Browser automation (required for Alibaba/Aliyun/Zhipu/Kimi/MiniMax)
 
+**Option A — Playwright (default, used by `daily_collect.py`):**
 ```bash
 pip install requests playwright
 python3 -m playwright install chromium
 ```
+
+**Option B — agent-browser (alternative CLI):**
+If you have [agent-browser](https://clawhub.com) installed, you can use it for ad-hoc browser-based job page access. Install: `npm i -g agent-browser` or `npx clawhub install agent-browser`.
+
+> The collection scripts use Playwright programmatically. agent-browser is useful for manual exploration and debugging of job pages.
 
 > ⚠️ If `playwright install chromium` fails behind a corporate network:
 > ```bash
@@ -88,11 +94,11 @@ bash scripts/run_daily.sh
 |---------|--------|-------------|--------|
 | Tencent | `careers.tencent.com` REST API | `requests` | ✅ Stable |
 | ByteDance | `jobs.bytedance.com` REST API | `requests` | ✅ Stable |
-| Alibaba | `talent-holding.alibaba.com` Playwright DOM | `playwright` | ✅ Stable |
-| Aliyun | `careers.aliyun.com` Playwright DOM | `playwright` | ✅ Stable |
-| Zhipu AI | `app.mokahr.com/zphz` Playwright DOM | `playwright` | ✅ Stable |
-| Kimi | `app.mokahr.com/moonshot` Playwright DOM | `playwright` | ✅ Stable |
-| MiniMax | `vrfi1sk8a0.jobs.feishu.cn` Playwright + proxy | `playwright` + optional proxy | ✅ Stable |
+| Alibaba | `talent-holding.alibaba.com` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
+| Aliyun | `careers.aliyun.com` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
+| Zhipu AI | `app.mokahr.com/zphz` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
+| Kimi | `app.mokahr.com/moonshot` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
+| MiniMax | `vrfi1sk8a0.jobs.feishu.cn` Playwright + proxy | `playwright` (or agent-browser) + optional proxy | ✅ Stable |
 
 **Note**: Tencent/ByteDance APIs return 405 through HTTP proxy — these always use direct connection.
 
