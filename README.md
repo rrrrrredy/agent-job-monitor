@@ -53,6 +53,7 @@ openclaw cron add --name "Agent Job Daily" --schedule "0 10 * * *" \
 ```
 agent-job-monitor/
 ├── SKILL.md                # Main skill definition
+├── LICENSE
 ├── scripts/
 │   ├── setup.sh            # Dependency installer
 │   ├── daily_collect.py    # Collection (7 companies)
