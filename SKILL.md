@@ -131,7 +131,7 @@ Feishu ATS Portal is a CSR app — `_signature` is JS-generated, can't be replic
 
 ## Gotchas
 
-See `gotchas.md`. Key points:
+See `references/gotchas.md`. Key points:
 
 | Issue | Solution |
 |-------|----------|
@@ -148,7 +148,7 @@ See `gotchas.md`. Key points:
 ```
 agent-job-monitor/
 ├── SKILL.md
-├── gotchas.md
+│   ├── gotchas.md
 ├── scripts/
 │   ├── setup.sh            # Dependency installer
 │   ├── daily_collect.py    # Collection (7 companies)
