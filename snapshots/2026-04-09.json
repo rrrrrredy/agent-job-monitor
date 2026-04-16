@@ -1,0 +1,2445 @@
+{
+  "date": "2026-04-09",
+  "collected_at": "2026-04-09T22:23:16.911052+08:00",
+  "companies": {
+    "腾讯": {
+      "total": 135,
+      "jobs": [
+        {
+          "id": "腾讯:Researcher- Agent:51f92961",
+          "company": "腾讯",
+          "title": "Researcher- Agent",
+          "department": "TEG",
+          "location": "贝尔维尤",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:Senior AI Software Engineer, Coding Agent:439e6931",
+          "company": "腾讯",
+          "title": "Senior AI Software Engineer, Coding Agent",
+          "department": "Overseas Functional System",
+          "location": "伦敦",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:agent应用开发工程师:9db3fd8c",
+          "company": "腾讯",
+          "title": "agent应用开发工程师",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-Agent架构工程师:168025b0",
+          "company": "腾讯",
+          "title": "元宝-Agent架构工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-Agent架构工程师:c0ec5dbd",
+          "company": "腾讯",
+          "title": "元宝-Agent架构工程师",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI Agent 应用架构工程师:2f93ae38",
+          "company": "腾讯",
+          "title": "AI Agent 应用架构工程师",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:云游戏-Agent应用工程师:7f897e0c",
+          "company": "腾讯",
+          "title": "云游戏-Agent应用工程师",
+          "department": "IEG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-AI Agent研发工程师:b83db078",
+          "company": "腾讯",
+          "title": "企业微信-AI Agent研发工程师",
+          "department": "WXG",
+          "location": "成都",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI Agent后端研发工程师（深圳）:f5d827bb",
+          "company": "腾讯",
+          "title": "AI Agent后端研发工程师（深圳）",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:《三角洲行动》-游戏 AI Agent 开发:57e48ffd",
+          "company": "腾讯",
+          "title": "《三角洲行动》-游戏 AI Agent 开发",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:轻量云OpenClaw AI Agent 高级工程师:cfd1d984",
+          "company": "腾讯",
+          "title": "轻量云OpenClaw AI Agent 高级工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝搜索部-Agent算法工程师:fc31e691",
+          "company": "腾讯",
+          "title": "元宝搜索部-Agent算法工程师",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信-大模型(GUI Agent)算法研究员:ab18ca89",
+          "company": "腾讯",
+          "title": "微信-大模型(GUI Agent)算法研究员",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信-大模型(Code Agent)算法研究员:45355307",
+          "company": "腾讯",
+          "title": "微信-大模型(Code Agent)算法研究员",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-AI Agent高级评测工程师:bcaa19c4",
+          "company": "腾讯",
+          "title": "企业微信-AI Agent高级评测工程师",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-AI Agent高级研发工程师:966fd1a8",
+          "company": "腾讯",
+          "title": "企业微信-AI Agent高级研发工程师",
+          "department": "WXG",
+          "location": "成都",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:大语言模型应用工程师（Agent方向）:33f08bd6",
+          "company": "腾讯",
+          "title": "大语言模型应用工程师（Agent方向）",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝搜索部-Agent算法工程师（深圳）:36a1bd5b",
+          "company": "腾讯",
+          "title": "元宝搜索部-Agent算法工程师（深圳）",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信基础-大模型算法工程师-Agent方向:5adcfdaf",
+          "company": "腾讯",
+          "title": "微信基础-大模型算法工程师-Agent方向",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信-大模型(Agent)应用开发后台工程师:2ae038b1",
+          "company": "腾讯",
+          "title": "微信-大模型(Agent)应用开发后台工程师",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯游戏-UE引擎高级Agent开发工程师:096a642e",
+          "company": "腾讯",
+          "title": "腾讯游戏-UE引擎高级Agent开发工程师",
+          "department": "IEG",
+          "location": "杭州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:智能运维AI Agent平台-资深软件开发工程师 :b8e05f50",
+          "company": "腾讯",
+          "title": "智能运维AI Agent平台-资深软件开发工程师 ",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:大模型Code/Agent后训练算法研究员-(深圳)or(北京)or:347996b5",
+          "company": "腾讯",
+          "title": "大模型Code/Agent后训练算法研究员-(深圳)or(北京)or",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-AI Agent开发工程师-平台框架/应用（广州）:50ee4538",
+          "company": "腾讯",
+          "title": "企业微信-AI Agent开发工程师-平台框架/应用（广州）",
+          "department": "WXG",
+          "location": "成都",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-大模型算法工程师-Agent应用（广州/北京）:3a32a0f2",
+          "company": "腾讯",
+          "title": "企业微信-大模型算法工程师-Agent应用（广州/北京）",
+          "department": "WXG",
+          "location": "成都",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信秒剪-agent强化学习训练框架开发工程师-（广州）:89653582",
+          "company": "腾讯",
+          "title": "微信秒剪-agent强化学习训练框架开发工程师-（广州）",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信读书/微信输入法-大模型算法研究员-Agent方向:0895ee8f",
+          "company": "腾讯",
+          "title": "微信读书/微信输入法-大模型算法研究员-Agent方向",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝自动化测试工程师:b19babff",
+          "company": "腾讯",
+          "title": "元宝自动化测试工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QQ-AI产品策划:8bac53ba",
+          "company": "腾讯",
+          "title": "QQ-AI产品策划",
+          "department": "PCG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:生态发展部-应用研究工程师:883610a7",
+          "company": "腾讯",
+          "title": "生态发展部-应用研究工程师",
+          "department": "IEG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI前线部署工程师FDE:a09767a0",
+          "company": "腾讯",
+          "title": "AI前线部署工程师FDE",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QQ增值-AI算法工程师:d10f6f26",
+          "company": "腾讯",
+          "title": "QQ增值-AI算法工程师",
+          "department": "PCG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:教育行业AI专项方案架构师:2271922f",
+          "company": "腾讯",
+          "title": "教育行业AI专项方案架构师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:轻游梦工坊-高级技术策划（AI游戏生成）:238d2414",
+          "company": "腾讯",
+          "title": "轻游梦工坊-高级技术策划（AI游戏生成）",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:ima-AI策略产品经理:070d080c",
+          "company": "腾讯",
+          "title": "ima-AI策略产品经理",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信安全-大模型安全算法工程师:5e27afc3",
+          "company": "腾讯",
+          "title": "微信安全-大模型安全算法工程师",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:测试开发工程师-天美中台:31318a41",
+          "company": "腾讯",
+          "title": "测试开发工程师-天美中台",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯乐享-高级产品策划 :2c4281a8",
+          "company": "腾讯",
+          "title": "腾讯乐享-高级产品策划 ",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝- AI策略产品经理:24a968cb",
+          "company": "腾讯",
+          "title": "元宝- AI策略产品经理",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-大模型策略产品经理:12fcc4b6",
+          "company": "腾讯",
+          "title": "元宝-大模型策略产品经理",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝- AI策略产品经理:09f26938",
+          "company": "腾讯",
+          "title": "元宝- AI策略产品经理",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信公众号-大模型算法工程师:f7f560eb",
+          "company": "腾讯",
+          "title": "微信公众号-大模型算法工程师",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI创新金融研究员:7816b068",
+          "company": "腾讯",
+          "title": "AI创新金融研究员",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信小程序-前端开发工程师-AI方向:5ddc5386",
+          "company": "腾讯",
+          "title": "微信小程序-前端开发工程师-AI方向",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:证券-项目经理:9fc6698e",
+          "company": "腾讯",
+          "title": "证券-项目经理",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QClaw-高级TypeScript工程师（qclaw核心引擎方向）:8463dba2",
+          "company": "腾讯",
+          "title": "QClaw-高级TypeScript工程师（qclaw核心引擎方向）",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯广告-资深策略产品经理-AIGC方向:d2fbde26",
+          "company": "腾讯",
+          "title": "腾讯广告-资深策略产品经理-AIGC方向",
+          "department": "CDG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯广告-AIGC平台产品经理-北京/上海:9943ba3a",
+          "company": "腾讯",
+          "title": "腾讯广告-AIGC平台产品经理-北京/上海",
+          "department": "CDG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云-大模型产品解决方案架构师:1da431cb",
+          "company": "腾讯",
+          "title": "腾讯云-大模型产品解决方案架构师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-AI产品经理-生态合作方向:f93ada33",
+          "company": "腾讯",
+          "title": "元宝-AI产品经理-生态合作方向",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯广告-AI投放策略产品经理:9cebef0e",
+          "company": "腾讯",
+          "title": "腾讯广告-AI投放策略产品经理",
+          "department": "CDG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云汽车行业 - 大模型方案交付架构师 :f2920424",
+          "company": "腾讯",
+          "title": "腾讯云汽车行业 - 大模型方案交付架构师 ",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:游戏Agentic Engineer:722ff819",
+          "company": "腾讯",
+          "title": "游戏Agentic Engineer",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-大模型算法工程师-记忆系统（北京/成都）:ba247ce5",
+          "company": "腾讯",
+          "title": "企业微信-大模型算法工程师-记忆系统（北京/成都）",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI技术型产品运营:9b765b87",
+          "company": "腾讯",
+          "title": "AI技术型产品运营",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:UGC产品-编辑器策划:e04a6dbc",
+          "company": "腾讯",
+          "title": "UGC产品-编辑器策划",
+          "department": "IEG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信基础-后端开发工程师:38b53c41",
+          "company": "腾讯",
+          "title": "微信基础-后端开发工程师",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QClaw-AI大模型算法高级工程师:7feeff87",
+          "company": "腾讯",
+          "title": "QClaw-AI大模型算法高级工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯安全-AI安全渗透工程师:2bfd4e1e",
+          "company": "腾讯",
+          "title": "腾讯安全-AI安全渗透工程师",
+          "department": "CSIG",
+          "location": "杭州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:混元AI搜索算法工程师（北京/深圳）:3b2905a9",
+          "company": "腾讯",
+          "title": "混元AI搜索算法工程师（北京/深圳）",
+          "department": "TEG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-AI应用后台开发工程师-多智能体方向(成都):13587a6c",
+          "company": "腾讯",
+          "title": "企业微信-AI应用后台开发工程师-多智能体方向(成都)",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯视频-AI创作工具产品leader:a5c7b9ce",
+          "company": "腾讯",
+          "title": "腾讯视频-AI创作工具产品leader",
+          "department": "PCG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:运营开发工程师:125c6fe7",
+          "company": "腾讯",
+          "title": "运营开发工程师",
+          "department": "TEG",
+          "location": "长沙",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:风控算法高级工程师:0ef91b3c",
+          "company": "腾讯",
+          "title": "风控算法高级工程师",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:ima copilot-大模型应用算法leader(深圳/北京):33d5e088",
+          "company": "腾讯",
+          "title": "ima copilot-大模型应用算法leader(深圳/北京)",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:商业分析师/商业分析经理（金融科技方向）:a28c4b52",
+          "company": "腾讯",
+          "title": "商业分析师/商业分析经理（金融科技方向）",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-产品策划-智能文档:6939627b",
+          "company": "腾讯",
+          "title": "企业微信-产品策划-智能文档",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信基础-大模型算法工程师-基础AI:ba4c8cb7",
+          "company": "腾讯",
+          "title": "微信基础-大模型算法工程师-基础AI",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信读书/微信输入法-大模型应用研发工程师-文本方向:89016207",
+          "company": "腾讯",
+          "title": "微信读书/微信输入法-大模型应用研发工程师-文本方向",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信秒剪-大模型后端研发工程师-多模态方向:9f298ab6",
+          "company": "腾讯",
+          "title": "微信秒剪-大模型后端研发工程师-多模态方向",
+          "department": "WXG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯安全-流量安全策略运营:bc3790c0",
+          "company": "腾讯",
+          "title": "腾讯安全-流量安全策略运营",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:和平精英-UGC AI 工作流工程师-业务+AI 方向:391ccdd5",
+          "company": "腾讯",
+          "title": "和平精英-UGC AI 工作流工程师-业务+AI 方向",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯游戏-资深游戏测试工程师:3ffee3a6",
+          "company": "腾讯",
+          "title": "腾讯游戏-资深游戏测试工程师",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:WeGame-高级产品经理-AI产品应用:cc995f58",
+          "company": "腾讯",
+          "title": "WeGame-高级产品经理-AI产品应用",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:ima-海外产品负责人:a177305c",
+          "company": "腾讯",
+          "title": "ima-海外产品负责人",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-后台开发工程师:98f297ff",
+          "company": "腾讯",
+          "title": "元宝-后台开发工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝-后台开发工程师:2d68d251",
+          "company": "腾讯",
+          "title": "元宝-后台开发工程师",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QClaw-安全AI算法工程师:3b429e82",
+          "company": "腾讯",
+          "title": "QClaw-安全AI算法工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝全链路高级测试工程师:d9cff6de",
+          "company": "腾讯",
+          "title": "元宝全链路高级测试工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:应用开发工程师:a02cf8e6",
+          "company": "腾讯",
+          "title": "应用开发工程师",
+          "department": "S3",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:QClaw-后台开发工程师:304c0089",
+          "company": "腾讯",
+          "title": "QClaw-后台开发工程师",
+          "department": "CSIG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:企业微信-后台开发工程师:18e8cc5c",
+          "company": "腾讯",
+          "title": "企业微信-后台开发工程师",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:金铲铲之战-技术策划（AI相关）:74e559e3",
+          "company": "腾讯",
+          "title": "金铲铲之战-技术策划（AI相关）",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:搜狗输入法-大模型算法资深专家:5f1a4049",
+          "company": "腾讯",
+          "title": "搜狗输入法-大模型算法资深专家",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:轻量云OpenClaw AI原生产品经理:74275fb2",
+          "company": "腾讯",
+          "title": "轻量云OpenClaw AI原生产品经理",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:《王者荣耀》游戏客户端开发工程师—游戏系统方向:8e790ff1",
+          "company": "腾讯",
+          "title": "《王者荣耀》游戏客户端开发工程师—游戏系统方向",
+          "department": "IEG",
+          "location": "成都",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:微信支付-后台开发工程师:ee8bc06c",
+          "company": "腾讯",
+          "title": "微信支付-后台开发工程师",
+          "department": "WXG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:智能体-策略产品经理-CodeBuddy/WorkBuddy:54b0de8c",
+          "company": "腾讯",
+          "title": "智能体-策略产品经理-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:高级/资深UE引擎开发工程师:5bc8483b",
+          "company": "腾讯",
+          "title": "高级/资深UE引擎开发工程师",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云汽车行业解决方案架构师:dccbc855",
+          "company": "腾讯",
+          "title": "腾讯云汽车行业解决方案架构师",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:轻游梦工坊-高级玩法策划（AI游戏生成）:ae721016",
+          "company": "腾讯",
+          "title": "轻游梦工坊-高级玩法策划（AI游戏生成）",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:SSV-全栈开发工程师:82fa041c",
+          "company": "腾讯",
+          "title": "SSV-全栈开发工程师",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:ima产品-知识号负责人(北京/深圳):911f85f7",
+          "company": "腾讯",
+          "title": "ima产品-知识号负责人(北京/深圳)",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云-海外战略规划组负责人:c30795ed",
+          "company": "腾讯",
+          "title": "腾讯云-海外战略规划组负责人",
+          "department": "CSIG",
+          "location": "中国香港",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:金融科技-文本大模型算法工程师:8c819d48",
+          "company": "腾讯",
+          "title": "金融科技-文本大模型算法工程师",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云AI-ToB产品经理-OCR与大模型应用方向:d5f04901",
+          "company": "腾讯",
+          "title": "腾讯云AI-ToB产品经理-OCR与大模型应用方向",
+          "department": "CSIG",
+          "location": "厦门",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AI 知识管理与评测-技术专家:e3a93f4a",
+          "company": "腾讯",
+          "title": "AI 知识管理与评测-技术专家",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:AW项目组-游戏 AI 算法工程师（LLM & TTS 方向）:5a0b1615",
+          "company": "腾讯",
+          "title": "AW项目组-游戏 AI 算法工程师（LLM & TTS 方向）",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:腾讯云汽车行业解决方案架构师:35c6d963",
+          "company": "腾讯",
+          "title": "腾讯云汽车行业解决方案架构师",
+          "department": "CSIG",
+          "location": "杭州",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝- AI策略产品经理（图片理解方向）:c5d0cb0a",
+          "company": "腾讯",
+          "title": "元宝- AI策略产品经理（图片理解方向）",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:元宝- AI策略产品经理（图片理解方向）:ee09198d",
+          "company": "腾讯",
+          "title": "元宝- AI策略产品经理（图片理解方向）",
+          "department": "CSIG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:Agent"
+        },
+        {
+          "id": "腾讯:智能体-产品leader-CodeBuddy/WorkBuddy:3be407de",
+          "company": "腾讯",
+          "title": "智能体-产品leader-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体AI开发工程师:e8cbceba",
+          "company": "腾讯",
+          "title": "智能体AI开发工程师",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-产品运营leader-CodeBuddy/WorkBuddy:1f5d0b90",
+          "company": "腾讯",
+          "title": "智能体-产品运营leader-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-全栈研发leader-CodeBuddy/WorkBuddy:59a63810",
+          "company": "腾讯",
+          "title": "智能体-全栈研发leader-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体产品-客户成功-CodeBuddy:e016dbef",
+          "company": "腾讯",
+          "title": "智能体产品-客户成功-CodeBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-策划产品经理-CodeBuddy/WorkBuddy:705ba119",
+          "company": "腾讯",
+          "title": "智能体-策划产品经理-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-产品售前架构师-CodeBuddy:aebc564e",
+          "company": "腾讯",
+          "title": "智能体-产品售前架构师-CodeBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-全栈开发工程师-CodeBuddy/WorkBuddy:fdfcecc3",
+          "company": "腾讯",
+          "title": "智能体-全栈开发工程师-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-后台开发工程师-CodeBuddy/WorkBuddy:b3bfe0ae",
+          "company": "腾讯",
+          "title": "智能体-后台开发工程师-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-内容创作运营经理-WorkBuddy:bf565f41",
+          "company": "腾讯",
+          "title": "智能体-内容创作运营经理-WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-后台团队负责人-CodeBuddy/WorkBuddy:7875baa7",
+          "company": "腾讯",
+          "title": "智能体-后台团队负责人-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-客户端开发工程师-WorkBuddy:450050a4",
+          "company": "腾讯",
+          "title": "智能体-客户端开发工程师-WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体终端安全工程师（深圳）:4d006526",
+          "company": "腾讯",
+          "title": "智能体终端安全工程师（深圳）",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体- LLMOps 平台技术负责人-CodeBuddy/WorkBuddy:67073c9a",
+          "company": "腾讯",
+          "title": "智能体- LLMOps 平台技术负责人-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-用户增长运营经理-CodeBuddy/WorkBuddy:ec1d0491",
+          "company": "腾讯",
+          "title": "智能体-用户增长运营经理-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体开发平台-AI后台工程师:d72af8be",
+          "company": "腾讯",
+          "title": "智能体开发平台-AI后台工程师",
+          "department": "CSIG",
+          "location": "西安",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-内容创作运营经理-CodeBuddy/WorkBuddy:07894262",
+          "company": "腾讯",
+          "title": "智能体-内容创作运营经理-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-强化学习算法研究员-CodeBuddy/WorkBuddy:a2dd8ec5",
+          "company": "腾讯",
+          "title": "智能体-强化学习算法研究员-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:智能体-强化学习infra与数据工程师-CodeBuddy/WorkBuddy:1640bcdf",
+          "company": "腾讯",
+          "title": "智能体-强化学习infra与数据工程师-CodeBuddy/WorkBuddy",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:品质管理部-游戏智能体评测算法工程师:e745a3bb",
+          "company": "腾讯",
+          "title": "品质管理部-游戏智能体评测算法工程师",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:Project W-AI产品策划（数据向）:238275dd",
+          "company": "腾讯",
+          "title": "Project W-AI产品策划（数据向）",
+          "department": "IEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:腾讯云-设计工具产品经理:87c1a1ae",
+          "company": "腾讯",
+          "title": "腾讯云-设计工具产品经理",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:AI产品解决方案架构师-(北京)or(深圳)or:b91f645c",
+          "company": "腾讯",
+          "title": "AI产品解决方案架构师-(北京)or(深圳)or",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:AI原生产品经理:796033dc",
+          "company": "腾讯",
+          "title": "AI原生产品经理",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:混元大模型-后台开发工程师（北京/深圳）:c139163a",
+          "company": "腾讯",
+          "title": "混元大模型-后台开发工程师（北京/深圳）",
+          "department": "TEG",
+          "location": "北京",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:金融AI产品经理:0fc69431",
+          "company": "腾讯",
+          "title": "金融AI产品经理",
+          "department": "CDG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:微信小店-数据挖掘工程师-商品内容理解:47a63329",
+          "company": "腾讯",
+          "title": "微信小店-数据挖掘工程师-商品内容理解",
+          "department": "WXG",
+          "location": "广州",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:腾讯云 IM-高级产品经理-智能对话（企业客服、营销方向）:e6590c93",
+          "company": "腾讯",
+          "title": "腾讯云 IM-高级产品经理-智能对话（企业客服、营销方向）",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:机器人具身智能研究员 - 大模型方向:ddb8c81b",
+          "company": "腾讯",
+          "title": "机器人具身智能研究员 - 大模型方向",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:腾讯云-腾讯云AI解决方案架构师-AI:99ec80b5",
+          "company": "腾讯",
+          "title": "腾讯云-腾讯云AI解决方案架构师-AI",
+          "department": "CSIG",
+          "location": "中国香港",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:代码智能算法工程师:fc11e2b8",
+          "company": "腾讯",
+          "title": "代码智能算法工程师",
+          "department": "TEG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:AI Infra强化学习工程师-深圳/北京/上海:4083eeaa",
+          "company": "腾讯",
+          "title": "AI Infra强化学习工程师-深圳/北京/上海",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:AI Infra强化学习工程师​-(深圳)or(北京)or:a694ba7e",
+          "company": "腾讯",
+          "title": "AI Infra强化学习工程师​-(深圳)or(北京)or",
+          "department": "CSIG",
+          "location": "上海",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        },
+        {
+          "id": "腾讯:腾讯云-金融行业大模型风控解决方案专家（北/上/深）:98eeb632",
+          "company": "腾讯",
+          "title": "腾讯云-金融行业大模型风控解决方案专家（北/上/深）",
+          "department": "CSIG",
+          "location": "深圳",
+          "match_tier": "L1",
+          "match_reason": "title:智能体"
+        }
+      ]
+    }
+  },
+  "total": 135,
+  "jobs": [
+    {
+      "id": "腾讯:Researcher- Agent:51f92961",
+      "company": "腾讯",
+      "title": "Researcher- Agent",
+      "department": "TEG",
+      "location": "贝尔维尤",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:Senior AI Software Engineer, Coding Agent:439e6931",
+      "company": "腾讯",
+      "title": "Senior AI Software Engineer, Coding Agent",
+      "department": "Overseas Functional System",
+      "location": "伦敦",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:agent应用开发工程师:9db3fd8c",
+      "company": "腾讯",
+      "title": "agent应用开发工程师",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-Agent架构工程师:168025b0",
+      "company": "腾讯",
+      "title": "元宝-Agent架构工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-Agent架构工程师:c0ec5dbd",
+      "company": "腾讯",
+      "title": "元宝-Agent架构工程师",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI Agent 应用架构工程师:2f93ae38",
+      "company": "腾讯",
+      "title": "AI Agent 应用架构工程师",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:云游戏-Agent应用工程师:7f897e0c",
+      "company": "腾讯",
+      "title": "云游戏-Agent应用工程师",
+      "department": "IEG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-AI Agent研发工程师:b83db078",
+      "company": "腾讯",
+      "title": "企业微信-AI Agent研发工程师",
+      "department": "WXG",
+      "location": "成都",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI Agent后端研发工程师（深圳）:f5d827bb",
+      "company": "腾讯",
+      "title": "AI Agent后端研发工程师（深圳）",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:《三角洲行动》-游戏 AI Agent 开发:57e48ffd",
+      "company": "腾讯",
+      "title": "《三角洲行动》-游戏 AI Agent 开发",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:轻量云OpenClaw AI Agent 高级工程师:cfd1d984",
+      "company": "腾讯",
+      "title": "轻量云OpenClaw AI Agent 高级工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝搜索部-Agent算法工程师:fc31e691",
+      "company": "腾讯",
+      "title": "元宝搜索部-Agent算法工程师",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信-大模型(GUI Agent)算法研究员:ab18ca89",
+      "company": "腾讯",
+      "title": "微信-大模型(GUI Agent)算法研究员",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信-大模型(Code Agent)算法研究员:45355307",
+      "company": "腾讯",
+      "title": "微信-大模型(Code Agent)算法研究员",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-AI Agent高级评测工程师:bcaa19c4",
+      "company": "腾讯",
+      "title": "企业微信-AI Agent高级评测工程师",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-AI Agent高级研发工程师:966fd1a8",
+      "company": "腾讯",
+      "title": "企业微信-AI Agent高级研发工程师",
+      "department": "WXG",
+      "location": "成都",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:大语言模型应用工程师（Agent方向）:33f08bd6",
+      "company": "腾讯",
+      "title": "大语言模型应用工程师（Agent方向）",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝搜索部-Agent算法工程师（深圳）:36a1bd5b",
+      "company": "腾讯",
+      "title": "元宝搜索部-Agent算法工程师（深圳）",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信基础-大模型算法工程师-Agent方向:5adcfdaf",
+      "company": "腾讯",
+      "title": "微信基础-大模型算法工程师-Agent方向",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信-大模型(Agent)应用开发后台工程师:2ae038b1",
+      "company": "腾讯",
+      "title": "微信-大模型(Agent)应用开发后台工程师",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯游戏-UE引擎高级Agent开发工程师:096a642e",
+      "company": "腾讯",
+      "title": "腾讯游戏-UE引擎高级Agent开发工程师",
+      "department": "IEG",
+      "location": "杭州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:智能运维AI Agent平台-资深软件开发工程师 :b8e05f50",
+      "company": "腾讯",
+      "title": "智能运维AI Agent平台-资深软件开发工程师 ",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:大模型Code/Agent后训练算法研究员-(深圳)or(北京)or:347996b5",
+      "company": "腾讯",
+      "title": "大模型Code/Agent后训练算法研究员-(深圳)or(北京)or",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-AI Agent开发工程师-平台框架/应用（广州）:50ee4538",
+      "company": "腾讯",
+      "title": "企业微信-AI Agent开发工程师-平台框架/应用（广州）",
+      "department": "WXG",
+      "location": "成都",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-大模型算法工程师-Agent应用（广州/北京）:3a32a0f2",
+      "company": "腾讯",
+      "title": "企业微信-大模型算法工程师-Agent应用（广州/北京）",
+      "department": "WXG",
+      "location": "成都",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信秒剪-agent强化学习训练框架开发工程师-（广州）:89653582",
+      "company": "腾讯",
+      "title": "微信秒剪-agent强化学习训练框架开发工程师-（广州）",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信读书/微信输入法-大模型算法研究员-Agent方向:0895ee8f",
+      "company": "腾讯",
+      "title": "微信读书/微信输入法-大模型算法研究员-Agent方向",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝自动化测试工程师:b19babff",
+      "company": "腾讯",
+      "title": "元宝自动化测试工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QQ-AI产品策划:8bac53ba",
+      "company": "腾讯",
+      "title": "QQ-AI产品策划",
+      "department": "PCG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:生态发展部-应用研究工程师:883610a7",
+      "company": "腾讯",
+      "title": "生态发展部-应用研究工程师",
+      "department": "IEG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI前线部署工程师FDE:a09767a0",
+      "company": "腾讯",
+      "title": "AI前线部署工程师FDE",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QQ增值-AI算法工程师:d10f6f26",
+      "company": "腾讯",
+      "title": "QQ增值-AI算法工程师",
+      "department": "PCG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:教育行业AI专项方案架构师:2271922f",
+      "company": "腾讯",
+      "title": "教育行业AI专项方案架构师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:轻游梦工坊-高级技术策划（AI游戏生成）:238d2414",
+      "company": "腾讯",
+      "title": "轻游梦工坊-高级技术策划（AI游戏生成）",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:ima-AI策略产品经理:070d080c",
+      "company": "腾讯",
+      "title": "ima-AI策略产品经理",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信安全-大模型安全算法工程师:5e27afc3",
+      "company": "腾讯",
+      "title": "微信安全-大模型安全算法工程师",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:测试开发工程师-天美中台:31318a41",
+      "company": "腾讯",
+      "title": "测试开发工程师-天美中台",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯乐享-高级产品策划 :2c4281a8",
+      "company": "腾讯",
+      "title": "腾讯乐享-高级产品策划 ",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝- AI策略产品经理:24a968cb",
+      "company": "腾讯",
+      "title": "元宝- AI策略产品经理",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-大模型策略产品经理:12fcc4b6",
+      "company": "腾讯",
+      "title": "元宝-大模型策略产品经理",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝- AI策略产品经理:09f26938",
+      "company": "腾讯",
+      "title": "元宝- AI策略产品经理",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信公众号-大模型算法工程师:f7f560eb",
+      "company": "腾讯",
+      "title": "微信公众号-大模型算法工程师",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI创新金融研究员:7816b068",
+      "company": "腾讯",
+      "title": "AI创新金融研究员",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信小程序-前端开发工程师-AI方向:5ddc5386",
+      "company": "腾讯",
+      "title": "微信小程序-前端开发工程师-AI方向",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:证券-项目经理:9fc6698e",
+      "company": "腾讯",
+      "title": "证券-项目经理",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QClaw-高级TypeScript工程师（qclaw核心引擎方向）:8463dba2",
+      "company": "腾讯",
+      "title": "QClaw-高级TypeScript工程师（qclaw核心引擎方向）",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯广告-资深策略产品经理-AIGC方向:d2fbde26",
+      "company": "腾讯",
+      "title": "腾讯广告-资深策略产品经理-AIGC方向",
+      "department": "CDG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯广告-AIGC平台产品经理-北京/上海:9943ba3a",
+      "company": "腾讯",
+      "title": "腾讯广告-AIGC平台产品经理-北京/上海",
+      "department": "CDG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云-大模型产品解决方案架构师:1da431cb",
+      "company": "腾讯",
+      "title": "腾讯云-大模型产品解决方案架构师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-AI产品经理-生态合作方向:f93ada33",
+      "company": "腾讯",
+      "title": "元宝-AI产品经理-生态合作方向",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯广告-AI投放策略产品经理:9cebef0e",
+      "company": "腾讯",
+      "title": "腾讯广告-AI投放策略产品经理",
+      "department": "CDG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云汽车行业 - 大模型方案交付架构师 :f2920424",
+      "company": "腾讯",
+      "title": "腾讯云汽车行业 - 大模型方案交付架构师 ",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:游戏Agentic Engineer:722ff819",
+      "company": "腾讯",
+      "title": "游戏Agentic Engineer",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-大模型算法工程师-记忆系统（北京/成都）:ba247ce5",
+      "company": "腾讯",
+      "title": "企业微信-大模型算法工程师-记忆系统（北京/成都）",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI技术型产品运营:9b765b87",
+      "company": "腾讯",
+      "title": "AI技术型产品运营",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:UGC产品-编辑器策划:e04a6dbc",
+      "company": "腾讯",
+      "title": "UGC产品-编辑器策划",
+      "department": "IEG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信基础-后端开发工程师:38b53c41",
+      "company": "腾讯",
+      "title": "微信基础-后端开发工程师",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QClaw-AI大模型算法高级工程师:7feeff87",
+      "company": "腾讯",
+      "title": "QClaw-AI大模型算法高级工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯安全-AI安全渗透工程师:2bfd4e1e",
+      "company": "腾讯",
+      "title": "腾讯安全-AI安全渗透工程师",
+      "department": "CSIG",
+      "location": "杭州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:混元AI搜索算法工程师（北京/深圳）:3b2905a9",
+      "company": "腾讯",
+      "title": "混元AI搜索算法工程师（北京/深圳）",
+      "department": "TEG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-AI应用后台开发工程师-多智能体方向(成都):13587a6c",
+      "company": "腾讯",
+      "title": "企业微信-AI应用后台开发工程师-多智能体方向(成都)",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯视频-AI创作工具产品leader:a5c7b9ce",
+      "company": "腾讯",
+      "title": "腾讯视频-AI创作工具产品leader",
+      "department": "PCG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:运营开发工程师:125c6fe7",
+      "company": "腾讯",
+      "title": "运营开发工程师",
+      "department": "TEG",
+      "location": "长沙",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:风控算法高级工程师:0ef91b3c",
+      "company": "腾讯",
+      "title": "风控算法高级工程师",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:ima copilot-大模型应用算法leader(深圳/北京):33d5e088",
+      "company": "腾讯",
+      "title": "ima copilot-大模型应用算法leader(深圳/北京)",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:商业分析师/商业分析经理（金融科技方向）:a28c4b52",
+      "company": "腾讯",
+      "title": "商业分析师/商业分析经理（金融科技方向）",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-产品策划-智能文档:6939627b",
+      "company": "腾讯",
+      "title": "企业微信-产品策划-智能文档",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信基础-大模型算法工程师-基础AI:ba4c8cb7",
+      "company": "腾讯",
+      "title": "微信基础-大模型算法工程师-基础AI",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信读书/微信输入法-大模型应用研发工程师-文本方向:89016207",
+      "company": "腾讯",
+      "title": "微信读书/微信输入法-大模型应用研发工程师-文本方向",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信秒剪-大模型后端研发工程师-多模态方向:9f298ab6",
+      "company": "腾讯",
+      "title": "微信秒剪-大模型后端研发工程师-多模态方向",
+      "department": "WXG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯安全-流量安全策略运营:bc3790c0",
+      "company": "腾讯",
+      "title": "腾讯安全-流量安全策略运营",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:和平精英-UGC AI 工作流工程师-业务+AI 方向:391ccdd5",
+      "company": "腾讯",
+      "title": "和平精英-UGC AI 工作流工程师-业务+AI 方向",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯游戏-资深游戏测试工程师:3ffee3a6",
+      "company": "腾讯",
+      "title": "腾讯游戏-资深游戏测试工程师",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:WeGame-高级产品经理-AI产品应用:cc995f58",
+      "company": "腾讯",
+      "title": "WeGame-高级产品经理-AI产品应用",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:ima-海外产品负责人:a177305c",
+      "company": "腾讯",
+      "title": "ima-海外产品负责人",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-后台开发工程师:98f297ff",
+      "company": "腾讯",
+      "title": "元宝-后台开发工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝-后台开发工程师:2d68d251",
+      "company": "腾讯",
+      "title": "元宝-后台开发工程师",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QClaw-安全AI算法工程师:3b429e82",
+      "company": "腾讯",
+      "title": "QClaw-安全AI算法工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝全链路高级测试工程师:d9cff6de",
+      "company": "腾讯",
+      "title": "元宝全链路高级测试工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:应用开发工程师:a02cf8e6",
+      "company": "腾讯",
+      "title": "应用开发工程师",
+      "department": "S3",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:QClaw-后台开发工程师:304c0089",
+      "company": "腾讯",
+      "title": "QClaw-后台开发工程师",
+      "department": "CSIG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:企业微信-后台开发工程师:18e8cc5c",
+      "company": "腾讯",
+      "title": "企业微信-后台开发工程师",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:金铲铲之战-技术策划（AI相关）:74e559e3",
+      "company": "腾讯",
+      "title": "金铲铲之战-技术策划（AI相关）",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:搜狗输入法-大模型算法资深专家:5f1a4049",
+      "company": "腾讯",
+      "title": "搜狗输入法-大模型算法资深专家",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:轻量云OpenClaw AI原生产品经理:74275fb2",
+      "company": "腾讯",
+      "title": "轻量云OpenClaw AI原生产品经理",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:《王者荣耀》游戏客户端开发工程师—游戏系统方向:8e790ff1",
+      "company": "腾讯",
+      "title": "《王者荣耀》游戏客户端开发工程师—游戏系统方向",
+      "department": "IEG",
+      "location": "成都",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:微信支付-后台开发工程师:ee8bc06c",
+      "company": "腾讯",
+      "title": "微信支付-后台开发工程师",
+      "department": "WXG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:智能体-策略产品经理-CodeBuddy/WorkBuddy:54b0de8c",
+      "company": "腾讯",
+      "title": "智能体-策略产品经理-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:高级/资深UE引擎开发工程师:5bc8483b",
+      "company": "腾讯",
+      "title": "高级/资深UE引擎开发工程师",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云汽车行业解决方案架构师:dccbc855",
+      "company": "腾讯",
+      "title": "腾讯云汽车行业解决方案架构师",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:轻游梦工坊-高级玩法策划（AI游戏生成）:ae721016",
+      "company": "腾讯",
+      "title": "轻游梦工坊-高级玩法策划（AI游戏生成）",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:SSV-全栈开发工程师:82fa041c",
+      "company": "腾讯",
+      "title": "SSV-全栈开发工程师",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:ima产品-知识号负责人(北京/深圳):911f85f7",
+      "company": "腾讯",
+      "title": "ima产品-知识号负责人(北京/深圳)",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云-海外战略规划组负责人:c30795ed",
+      "company": "腾讯",
+      "title": "腾讯云-海外战略规划组负责人",
+      "department": "CSIG",
+      "location": "中国香港",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:金融科技-文本大模型算法工程师:8c819d48",
+      "company": "腾讯",
+      "title": "金融科技-文本大模型算法工程师",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云AI-ToB产品经理-OCR与大模型应用方向:d5f04901",
+      "company": "腾讯",
+      "title": "腾讯云AI-ToB产品经理-OCR与大模型应用方向",
+      "department": "CSIG",
+      "location": "厦门",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AI 知识管理与评测-技术专家:e3a93f4a",
+      "company": "腾讯",
+      "title": "AI 知识管理与评测-技术专家",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:AW项目组-游戏 AI 算法工程师（LLM & TTS 方向）:5a0b1615",
+      "company": "腾讯",
+      "title": "AW项目组-游戏 AI 算法工程师（LLM & TTS 方向）",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云汽车行业解决方案架构师:35c6d963",
+      "company": "腾讯",
+      "title": "腾讯云汽车行业解决方案架构师",
+      "department": "CSIG",
+      "location": "杭州",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝- AI策略产品经理（图片理解方向）:c5d0cb0a",
+      "company": "腾讯",
+      "title": "元宝- AI策略产品经理（图片理解方向）",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:元宝- AI策略产品经理（图片理解方向）:ee09198d",
+      "company": "腾讯",
+      "title": "元宝- AI策略产品经理（图片理解方向）",
+      "department": "CSIG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:智能体-产品leader-CodeBuddy/WorkBuddy:3be407de",
+      "company": "腾讯",
+      "title": "智能体-产品leader-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体AI开发工程师:e8cbceba",
+      "company": "腾讯",
+      "title": "智能体AI开发工程师",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-产品运营leader-CodeBuddy/WorkBuddy:1f5d0b90",
+      "company": "腾讯",
+      "title": "智能体-产品运营leader-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-全栈研发leader-CodeBuddy/WorkBuddy:59a63810",
+      "company": "腾讯",
+      "title": "智能体-全栈研发leader-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体产品-客户成功-CodeBuddy:e016dbef",
+      "company": "腾讯",
+      "title": "智能体产品-客户成功-CodeBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-策划产品经理-CodeBuddy/WorkBuddy:705ba119",
+      "company": "腾讯",
+      "title": "智能体-策划产品经理-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-产品售前架构师-CodeBuddy:aebc564e",
+      "company": "腾讯",
+      "title": "智能体-产品售前架构师-CodeBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-全栈开发工程师-CodeBuddy/WorkBuddy:fdfcecc3",
+      "company": "腾讯",
+      "title": "智能体-全栈开发工程师-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-后台开发工程师-CodeBuddy/WorkBuddy:b3bfe0ae",
+      "company": "腾讯",
+      "title": "智能体-后台开发工程师-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-内容创作运营经理-WorkBuddy:bf565f41",
+      "company": "腾讯",
+      "title": "智能体-内容创作运营经理-WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-后台团队负责人-CodeBuddy/WorkBuddy:7875baa7",
+      "company": "腾讯",
+      "title": "智能体-后台团队负责人-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-客户端开发工程师-WorkBuddy:450050a4",
+      "company": "腾讯",
+      "title": "智能体-客户端开发工程师-WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体终端安全工程师（深圳）:4d006526",
+      "company": "腾讯",
+      "title": "智能体终端安全工程师（深圳）",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体- LLMOps 平台技术负责人-CodeBuddy/WorkBuddy:67073c9a",
+      "company": "腾讯",
+      "title": "智能体- LLMOps 平台技术负责人-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-用户增长运营经理-CodeBuddy/WorkBuddy:ec1d0491",
+      "company": "腾讯",
+      "title": "智能体-用户增长运营经理-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体开发平台-AI后台工程师:d72af8be",
+      "company": "腾讯",
+      "title": "智能体开发平台-AI后台工程师",
+      "department": "CSIG",
+      "location": "西安",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-内容创作运营经理-CodeBuddy/WorkBuddy:07894262",
+      "company": "腾讯",
+      "title": "智能体-内容创作运营经理-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-强化学习算法研究员-CodeBuddy/WorkBuddy:a2dd8ec5",
+      "company": "腾讯",
+      "title": "智能体-强化学习算法研究员-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:智能体-强化学习infra与数据工程师-CodeBuddy/WorkBuddy:1640bcdf",
+      "company": "腾讯",
+      "title": "智能体-强化学习infra与数据工程师-CodeBuddy/WorkBuddy",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:品质管理部-游戏智能体评测算法工程师:e745a3bb",
+      "company": "腾讯",
+      "title": "品质管理部-游戏智能体评测算法工程师",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:Project W-AI产品策划（数据向）:238275dd",
+      "company": "腾讯",
+      "title": "Project W-AI产品策划（数据向）",
+      "department": "IEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:腾讯云-设计工具产品经理:87c1a1ae",
+      "company": "腾讯",
+      "title": "腾讯云-设计工具产品经理",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:AI产品解决方案架构师-(北京)or(深圳)or:b91f645c",
+      "company": "腾讯",
+      "title": "AI产品解决方案架构师-(北京)or(深圳)or",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:AI原生产品经理:796033dc",
+      "company": "腾讯",
+      "title": "AI原生产品经理",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:混元大模型-后台开发工程师（北京/深圳）:c139163a",
+      "company": "腾讯",
+      "title": "混元大模型-后台开发工程师（北京/深圳）",
+      "department": "TEG",
+      "location": "北京",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:金融AI产品经理:0fc69431",
+      "company": "腾讯",
+      "title": "金融AI产品经理",
+      "department": "CDG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:微信小店-数据挖掘工程师-商品内容理解:47a63329",
+      "company": "腾讯",
+      "title": "微信小店-数据挖掘工程师-商品内容理解",
+      "department": "WXG",
+      "location": "广州",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:腾讯云 IM-高级产品经理-智能对话（企业客服、营销方向）:e6590c93",
+      "company": "腾讯",
+      "title": "腾讯云 IM-高级产品经理-智能对话（企业客服、营销方向）",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:机器人具身智能研究员 - 大模型方向:ddb8c81b",
+      "company": "腾讯",
+      "title": "机器人具身智能研究员 - 大模型方向",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:腾讯云-腾讯云AI解决方案架构师-AI:99ec80b5",
+      "company": "腾讯",
+      "title": "腾讯云-腾讯云AI解决方案架构师-AI",
+      "department": "CSIG",
+      "location": "中国香港",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:代码智能算法工程师:fc11e2b8",
+      "company": "腾讯",
+      "title": "代码智能算法工程师",
+      "department": "TEG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:AI Infra强化学习工程师-深圳/北京/上海:4083eeaa",
+      "company": "腾讯",
+      "title": "AI Infra强化学习工程师-深圳/北京/上海",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:AI Infra强化学习工程师​-(深圳)or(北京)or:a694ba7e",
+      "company": "腾讯",
+      "title": "AI Infra强化学习工程师​-(深圳)or(北京)or",
+      "department": "CSIG",
+      "location": "上海",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:腾讯云-金融行业大模型风控解决方案专家（北/上/深）:98eeb632",
+      "company": "腾讯",
+      "title": "腾讯云-金融行业大模型风控解决方案专家（北/上/深）",
+      "department": "CSIG",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    }
+  ],
+  "errors": []
+}

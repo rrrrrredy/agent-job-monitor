@@ -5,7 +5,7 @@ description: "AI company Agent/LLM job monitoring system. Automatically collects
 tags: [job-monitor, AI, agent, recruitment]
 ---
 
-# agent-job-monitor 2.1.0
+# agent-job-monitor v2.1.0
 
 AI company Agent/LLM job monitoring system — daily automated collection → analysis → report generation → notification.
 
@@ -131,7 +131,7 @@ Feishu ATS Portal is a CSR app — `_signature` is JS-generated, can't be replic
 
 ## Gotchas
 
-See `references/gotchas.md`. Key points:
+See `gotchas.md`. Key points:
 
 | Issue | Solution |
 |-------|----------|
@@ -148,6 +148,7 @@ See `references/gotchas.md`. Key points:
 ```
 agent-job-monitor/
 ├── SKILL.md
+├── gotchas.md
 ├── scripts/
 │   ├── setup.sh            # Dependency installer
 │   ├── daily_collect.py    # Collection (7 companies)
@@ -157,7 +158,6 @@ agent-job-monitor/
 │   └── run_daily.sh        # Daily entry point
 ├── references/
 │   ├── company-endpoints.md
-│   ├── gotchas.md          # Known issues & workarounds
 │   └── schema.md
 ├── snapshots/               # Auto-created
 ├── diffs/                   # Auto-created
@@ -168,20 +168,20 @@ agent-job-monitor/
 
 ## Changelog
 
-### 2.1.0
+### v2.1.0
 - **Breaking**: Replaced proprietary browser automation CLI with standard Playwright
 - All 7 companies now use either direct API or standard Playwright — no external skill dependencies
 - Renamed report publisher script to `push_docs.py` (generic docs publishing)
 - Simplified setup: only `requests` + `playwright` needed
 
-### 2.0.5
+### v2.0.5
 - Fix: Playwright Chromium corporate network download docs
 - Fix: Proxy config self-check step
 
-### 2.0.0
+### v2.0.0
 - MiniMax Feishu ATS integration (7/7 complete)
 - Generic `collect_feishu_ats()` function
 - 12-section report template
 
-### 1.0.0
+### v1.0.0
 - Initial release: 6/7 companies, detailed report + notification

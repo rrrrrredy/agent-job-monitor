@@ -1,0 +1,1277 @@
+{
+  "date": "2026-04-16",
+  "yesterday": "2026-04-15",
+  "first_run": false,
+  "new_jobs": [
+    {
+      "id": "Kimi:AI Agent Infra 前端开发工程师:b84b13f9",
+      "company": "Kimi",
+      "title": "AI Agent Infra 前端开发工程师",
+      "department": "技术类 技术类",
+      "location": "北京市 北京市 工作职责1.Web/Client 工具开发：",
+      "date": "2025-04-21",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:AI Agent 系统安全研究工程师（eBPF / Runtime Security 方向）:bac6cb0f",
+      "company": "Kimi",
+      "title": "AI Agent 系统安全研究工程师（eBPF / Runtime Security 方向）",
+      "department": "AI Agent 系统安全研究工程师（eBPF / Runt",
+      "location": "",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Agent Collaboration Product:4febc5a1",
+      "company": "Kimi",
+      "title": "Agent Collaboration Product",
+      "department": "Agent Collaboration Product 发布",
+      "location": "",
+      "date": "2026-04-08",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Agent Engineer / Agent 工程师:5d1d3502",
+      "company": "Kimi",
+      "title": "Agent Engineer / Agent 工程师",
+      "department": "技术类 技术类",
+      "location": "北京市 北京市 公司 & 团队介绍我们是一家以实现 AGI ",
+      "date": "2026-02-25",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Agent 全栈工程师:cb9a54a6",
+      "company": "Kimi",
+      "title": "Agent 全栈工程师",
+      "department": "Agent 全栈工程师 发布于 2026-04-15 全职 ",
+      "location": "",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Agent 模型与数据产品:66f3b1c7",
+      "company": "Kimi",
+      "title": "Agent 模型与数据产品",
+      "department": "Agent 模型与数据产品 发布于 2025-08-20 全",
+      "location": "",
+      "date": "2025-08-20",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Agent模型评估产品经理:58146b3e",
+      "company": "Kimi",
+      "title": "Agent模型评估产品经理",
+      "department": "产品类 产品类",
+      "location": "北京市 北京市 职位描述负责构建大模型在真实应用场景下的行为",
+      "date": "2025-11-25",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:Kimi Agent 全栈算法工程师:19895703",
+      "company": "Kimi",
+      "title": "Kimi Agent 全栈算法工程师",
+      "department": "Kimi Agent 全栈算法工程师 发布于 2025-11",
+      "location": "",
+      "date": "2025-11-10",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:急 Agent Development Engineer:321ff41a",
+      "company": "Kimi",
+      "title": "急 Agent Development Engineer",
+      "department": "技术类 技术类",
+      "location": "北京市 北京市 就像两百多年前蒸汽机取代人类推动工业生产、近",
+      "date": "2025-12-02",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:急 Research Scientist / Engineer – Agentic RL:147ff2c6",
+      "company": "Kimi",
+      "title": "急 Research Scientist / Engineer – Agentic RL",
+      "department": "急 Research Scientist / Enginee",
+      "location": "算法类 算法类 Research Scientist / E",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:急 用户产品经理-Agent方向:3bf8f009",
+      "company": "Kimi",
+      "title": "急 用户产品经理-Agent方向",
+      "department": "产品类 产品类",
+      "location": "北京市 北京市 职位描述：负责月之暗面agent产品的C端用",
+      "date": "2025-10-10",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:急 高级Agent研发工程师:37b06d74",
+      "company": "Kimi",
+      "title": "急 高级Agent研发工程师",
+      "department": "技术类 技术类",
+      "location": "北京市 北京市 高级 Agent 研发工程师我们是一家以实现",
+      "date": "2026-02-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "Kimi:数据项目经理（代码方向）Agent coding PMO:90c6627d",
+      "company": "Kimi",
+      "title": "数据项目经理（代码方向）Agent coding PMO",
+      "department": "管理类 管理类",
+      "location": "北京市 北京市 岗位职责全面参与标注项目的需求分析、规则制定",
+      "date": "2025-11-11",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "字节跳动:AI Agent研发工程师-计算:4ede9c8a",
+      "company": "字节跳动",
+      "title": "AI Agent研发工程师-计算",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:Agent研发专家-用户增长（北京）:11093e20",
+      "company": "字节跳动",
+      "title": "Agent研发专家-用户增长（北京）",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:Agent策略工程师-Flow:8bc79188",
+      "company": "字节跳动",
+      "title": "Agent策略工程师-Flow",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:后端/资深后端研发工程师（AI Agent方向）-TikTok Shop:a8847e54",
+      "company": "字节跳动",
+      "title": "后端/资深后端研发工程师（AI Agent方向）-TikTok Shop",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:大模型Agent技术专家-AI应用与创新:9d890d7a",
+      "company": "字节跳动",
+      "title": "大模型Agent技术专家-AI应用与创新",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:大模型应用开发工程师（AI Agent方向）-TikTok用户增长:77a96afd",
+      "company": "字节跳动",
+      "title": "大模型应用开发工程师（AI Agent方向）-TikTok用户增长",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:海外技术支持-售前:e9e9df19",
+      "company": "腾讯",
+      "title": "海外技术支持-售前",
+      "department": "产品",
+      "location": "武汉",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:游戏AI-多模态Agent算法专家-UGC场景生成方向:f3b73cf8",
+      "company": "腾讯",
+      "title": "游戏AI-多模态Agent算法专家-UGC场景生成方向",
+      "department": "技术",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:游戏AI-游戏客户端开发工程师（UGC）:70076997",
+      "company": "腾讯",
+      "title": "游戏AI-游戏客户端开发工程师（UGC）",
+      "department": "技术",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云-存储高级研发工程师-Agent Infra:241a9ebd",
+      "company": "腾讯",
+      "title": "腾讯云-存储高级研发工程师-Agent Infra",
+      "department": "技术",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:腾讯云-控制面高级工程师-Agent Infra:878ba4dc",
+      "company": "腾讯",
+      "title": "腾讯云-控制面高级工程师-Agent Infra",
+      "department": "技术",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业群-AI Agent 测试开发工程师-杭州/北京:20c9a000",
+      "company": "阿里云",
+      "title": "ATH事业群-AI Agent 测试开发工程师-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业群-AI 产品经理 （MaaS网站方向）-杭州/北京:8ed1b682",
+      "company": "阿里云",
+      "title": "ATH事业群-AI 产品经理 （MaaS网站方向）-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业群-AI 前端开发工程师-杭州/北京:e1fe95e1",
+      "company": "阿里云",
+      "title": "ATH事业群-AI 前端开发工程师-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业群-AI 客户端开发工程师—Android/iOS-杭州/北京:b9f3ca01",
+      "company": "阿里云",
+      "title": "ATH事业群-AI 客户端开发工程师—Android/iOS-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-16",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业群-AI应用开发工程师-杭州/北京:2142e1d9",
+      "company": "阿里云",
+      "title": "ATH事业群-AI应用开发工程师-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:ATH事业部-应用算法开发工程师-杭州/北京:36c3356d",
+      "company": "阿里云",
+      "title": "ATH事业部-应用算法开发工程师-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Agent 客户端开发工程师/专家-杭州:8e4aa823",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Agent 客户端开发工程师/专家-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Agent 研发专家-Qoder:a5a772f0",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Agent 研发专家-Qoder",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Agent开发工程师-杭州:aaa06913",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Agent开发工程师-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Agent研发工程师-AI Coding方向:afa3ab0d",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Agent研发工程师-AI Coding方向",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Agent研发工程师-AI搜索-杭州:c512f03b",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Agent研发工程师-AI搜索-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Coding Agent 产品经理-杭州/北京:82ff084b",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Coding Agent 产品经理-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Coding Agent专家（评测/数据分析/Agent方向）-杭州:7a408f2e",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Coding Agent专家（评测/数据分析/Agent方向）-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-AI Coding Agent研发技术专家-杭州/北京:3e1b1a21",
+      "company": "阿里云",
+      "title": "阿里云智能-AI Coding Agent研发技术专家-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-公共云解决方案架构师-Agent Infra 方向-北京/杭州:8dec5008",
+      "company": "阿里云",
+      "title": "阿里云智能-公共云解决方案架构师-Agent Infra 方向-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-10",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-大模型技术服务工程师-杭州/北京/成都/西安:e96a182c",
+      "company": "阿里云",
+      "title": "阿里云智能-大模型技术服务工程师-杭州/北京/成都/西安",
+      "department": "",
+      "location": "西安 / 成都 / 北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-大模型研发算法专家/高级算法专家（多模态/全模态/LLM）-北京/杭州:acafdb00",
+      "company": "阿里云",
+      "title": "阿里云智能-大模型研发算法专家/高级算法专家（多模态/全模态/LLM）-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-02-05",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-大模型算法专家-杭州:73aad20f",
+      "company": "阿里云",
+      "title": "阿里云智能-大模型算法专家-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-大模型高级产品解决方案工程师（汽车行业）-杭州:3005656f",
+      "company": "阿里云",
+      "title": "阿里云智能-大模型高级产品解决方案工程师（汽车行业）-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-大模型高级产品解决方案架构师-上海:6053d335",
+      "company": "阿里云",
+      "title": "阿里云智能-大模型高级产品解决方案架构师-上海",
+      "department": "",
+      "location": "上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-技术专家-通义晓蜜:0a218749",
+      "company": "阿里云",
+      "title": "阿里云智能-技术专家-通义晓蜜",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-机器学习PAI平台研发专家-MLOps/Agent方向（北京、杭州）:3a0bac33",
+      "company": "阿里云",
+      "title": "阿里云智能-机器学习PAI平台研发专家-MLOps/Agent方向（北京、杭州）",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼AI搜索技术专家/高级开发工程师(知识库&联网搜索方向)-北京/杭州:958bf628",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼AI搜索技术专家/高级开发工程师(知识库&联网搜索方向)-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼Agent高级算法专家-北京/杭州/上海:b71190da",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼Agent高级算法专家-北京/杭州/上海",
+      "department": "",
+      "location": "北京 / 杭州 / 上海",
+      "date": "2026-04-08",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼平台工程技术专家/高级工程师-北京/杭州:0e3c9506",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼平台工程技术专家/高级工程师-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-08",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼模型工程技术专家/高级开发工程师-北京/杭州:d964568d",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼模型工程技术专家/高级开发工程师-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-08",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼模型推理服务技术专家-北京/杭州:41307d7d",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼模型推理服务技术专家-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼模型服务运行时技术专家/高级专家-杭州/北京:79528f40",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼模型服务运行时技术专家/高级专家-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼模型管理产品专家-杭州/北京:23a631c4",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼模型管理产品专家-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼研发项目管理专家-北京/杭州:b5220477",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼研发项目管理专家-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼稳定性工程专家/高级工程师-北京/杭州:c2b52e33",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼稳定性工程专家/高级工程师-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-百炼系统架构技术专家-北京/杭州:39616262",
+      "company": "阿里云",
+      "title": "阿里云智能-百炼系统架构技术专家-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师(技术架构方向)-北京/深圳/杭州/上海:4f0b048c",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师(技术架构方向)-北京/深圳/杭州/上海",
+      "department": "",
+      "location": "北京 / 深圳 / 杭州 / 上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师(政企)-杭州/北京:fec56d25",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师(政企)-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师(海外)-杭州/上海:a98a5792",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师(海外)-杭州/上海",
+      "department": "",
+      "location": "杭州 / 上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师(金融)-杭州/上海/北京:c88a6786",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师(金融)-杭州/上海/北京",
+      "department": "",
+      "location": "北京 / 杭州 / 上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师（SMB方向）-北京/深圳/杭州/上海:a4360623",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师（SMB方向）-北京/深圳/杭州/上海",
+      "department": "",
+      "location": "北京 / 深圳 / 杭州 / 上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师（互联网、游戏方向）-杭州:d6846850",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师（互联网、游戏方向）-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型产品解决方案架构师（华北区域）-北京/杭州:c4bfa91d",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型产品解决方案架构师（华北区域）-北京/杭州",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义大模型高级产品解决方案工程师（互联网，游戏方向）-杭州:ba68de40",
+      "company": "阿里云",
+      "title": "阿里云智能-通义大模型高级产品解决方案工程师（互联网，游戏方向）-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-通义晓蜜技术专家/高级Java工程师-杭州/北京:a46a7b47",
+      "company": "阿里云",
+      "title": "阿里云智能-通义晓蜜技术专家/高级Java工程师-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-03",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:AI创新事业部-多模态大模型数据评测专家-未来生活实验室:cbbb0c7d",
+      "company": "阿里巴巴",
+      "title": "AI创新事业部-多模态大模型数据评测专家-未来生活实验室",
+      "department": "技术类-综合",
+      "location": "北京 / 杭州",
+      "date": "2026-03-31",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:AI创新事业部-语音大模型数据评测专家-未来生活实验室:ee6c148c",
+      "company": "阿里巴巴",
+      "title": "AI创新事业部-语音大模型数据评测专家-未来生活实验室",
+      "department": "技术类-综合",
+      "location": "北京 / 杭州",
+      "date": "2026-04-13",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:乌鸫科技-大模型评测工程师-LLM:20a447be",
+      "company": "阿里巴巴",
+      "title": "乌鸫科技-大模型评测工程师-LLM",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:数据技术及产品部-AI大模型评测算法-多模态方向:10185bd5",
+      "company": "阿里巴巴",
+      "title": "数据技术及产品部-AI大模型评测算法-多模态方向",
+      "department": "技术类-算法",
+      "location": "北京 / 杭州",
+      "date": "2026-04-09",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:数据技术及产品部-大模型数据评测工程-杭州/北京:b0692b39",
+      "company": "阿里巴巴",
+      "title": "数据技术及产品部-大模型数据评测工程-杭州/北京",
+      "department": "",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:智能引擎-多模态大模型推理系统工程师-北京/杭州:5b6456c3",
+      "company": "阿里巴巴",
+      "title": "智能引擎-多模态大模型推理系统工程师-北京/杭州",
+      "department": "技术类-开发",
+      "location": "北京 / 杭州",
+      "date": "2026-04-15",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:智能引擎-大模型推理系统工程师-LLM:551fac90",
+      "company": "阿里巴巴",
+      "title": "智能引擎-大模型推理系统工程师-LLM",
+      "department": "技术类-开发",
+      "location": "北京 / 杭州",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:智能引擎-大模型训练基础架构研发工程师/高级专家-AI Infra:b64552a4",
+      "company": "阿里巴巴",
+      "title": "智能引擎-大模型训练基础架构研发工程师/高级专家-AI Infra",
+      "department": "技术类-开发",
+      "location": "北京 / 杭州 / 上海",
+      "date": "2026-04-14",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:达摩院-具身智能大模型研发工程师-北京/杭州:22736e5f",
+      "company": "阿里巴巴",
+      "title": "达摩院-具身智能大模型研发工程师-北京/杭州",
+      "department": "技术类-算法",
+      "location": "北京 / 杭州",
+      "date": "2026-03-27",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:集团安全部-大模型安全攻防-AI for Security:d8ecb177",
+      "company": "阿里巴巴",
+      "title": "集团安全部-大模型安全攻防-AI for Security",
+      "department": "技术类-安全",
+      "location": "杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:集团安全部-大模型知识算法专家-北京/杭州:78600ad6",
+      "company": "阿里巴巴",
+      "title": "集团安全部-大模型知识算法专家-北京/杭州",
+      "department": "技术类-算法",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    },
+    {
+      "id": "阿里巴巴:集团安全部-大模型评测算法专家-北京/杭州:bb94a978",
+      "company": "阿里巴巴",
+      "title": "集团安全部-大模型评测算法专家-北京/杭州",
+      "department": "技术类-算法",
+      "location": "北京 / 杭州",
+      "date": "2026-04-07",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    }
+  ],
+  "removed_jobs": [
+    {
+      "title": "声音生成算法-实习生",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7352871192115857674",
+      "company": "MiniMax"
+    },
+    {
+      "title": "战略商分实习生",
+      "city": "",
+      "department": "战略 / 投资",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7352871445423327498",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AI售前解决方案实习生",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7352921133769328937",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法评测实习生",
+      "city": "",
+      "department": "研发",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7352924347043088703",
+      "company": "MiniMax"
+    },
+    {
+      "title": "声音生成算法工程师-2025届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7369589252642179354",
+      "company": "MiniMax"
+    },
+    {
+      "title": "MinMax校园大使",
+      "city": "",
+      "department": "职能 / 支持",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7389102118622169353",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型产品实习生-B端业务",
+      "city": "",
+      "department": "产品经理",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7403616380086372645",
+      "company": "MiniMax"
+    },
+    {
+      "title": "海外客户运营实习生",
+      "city": "",
+      "department": "用户运营",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7473780233386182948",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent 前端研发工程师-2026届",
+      "city": "",
+      "department": "前端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7496886549851392319",
+      "company": "MiniMax"
+    },
+    {
+      "title": " Agent 全栈研发工程师-2026届",
+      "city": "",
+      "department": "客户端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7496886549856405801",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-应届生-TOP Talent",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497096058259884307",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-实习-TOP Talent",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497098391874668836",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-2026届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497103082154281266",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型系统研发工程师-应届生-TOP Talent",
+      "city": "",
+      "department": "研发",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497141440938723621",
+      "company": "MiniMax"
+    },
+    {
+      "title": "声音生成算法工程师-2026届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497146129031055655",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型客户经理-2026届",
+      "city": "",
+      "department": "销售支持",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497158955563632915",
+      "company": "MiniMax"
+    },
+    {
+      "title": "高性能计算实习生",
+      "city": "",
+      "department": "研发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497187055459879177",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent数据工程师-2026届",
+      "city": "",
+      "department": "大数据",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497828934399346970",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型系统研发工程师-实习-TOP Talent",
+      "city": "",
+      "department": "研发",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7497973037862979867",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent 服务端开发实习生（AI Agent / AI App）",
+      "city": "",
+      "department": "后端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7498581238874900763",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent测试开发工程师-2026届",
+      "city": "",
+      "department": "测试",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7498627138699610387",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型数据采集实习生",
+      "city": "",
+      "department": "数据挖掘",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7514653361226008844",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程Co-Design-2026届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7532049295131511082",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent 前端开发实习生（AI Agent / AI App）",
+      "city": "",
+      "department": "前端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7535804207291451657",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent 客户端开发实习生（AI Agent / AI App）",
+      "city": "",
+      "department": "客户端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7535804843156736299",
+      "company": "MiniMax"
+    },
+    {
+      "title": "销售运营实习生",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7537598941065742631",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AGI产品研发工程师-应届生-TOP Talent",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7546180826527893810",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型系统研发工程师-应届生",
+      "city": "",
+      "department": "后端开发",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7547929965531679027",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent测试开发工程师-2026届",
+      "city": "",
+      "department": "测试",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7548409696949012775",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AGI产品研发工程师-实习-TOP Talent",
+      "city": "",
+      "department": "研发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7549395711529715995",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型训练数据系统研发实习生",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7560558565114546473",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型训练数据系统工程师-2026届",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7560558990335314203",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AI评测开发工程师-2026届",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7561039418648676651",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AI评测开发实习生",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7561044761327651098",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AI开放平台运营实习生",
+      "city": "",
+      "department": "产品运营",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7566935487341201705",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-数据",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7568457243662829830",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-日常实习",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7568458077637577001",
+      "company": "MiniMax"
+    },
+    {
+      "title": " 高性能服务研发实习生-2027 届",
+      "city": "",
+      "department": "后端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573257185578617142",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型训练与推理研发实习生-2027 届",
+      "city": "",
+      "department": "后端开发",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573258992060909867",
+      "company": "MiniMax"
+    },
+    {
+      "title": "AI架构师实习生",
+      "city": "",
+      "department": "互联网 / 电子 / 网游",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573944297197275411",
+      "company": "MiniMax"
+    },
+    {
+      "title": "海外客户运营实习生",
+      "city": "",
+      "department": "用户运营",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573945047587113258",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程师-2027届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573984779819010313",
+      "company": "MiniMax"
+    },
+    {
+      "title": "声音生成算法工程师-2027届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7573988660926105902",
+      "company": "MiniMax"
+    },
+    {
+      "title": "Agent测试开发实习生",
+      "city": "",
+      "department": "测试",
+      "recruit_type": "校招",
+      "source_keyword": "Agent",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7588068450238941486",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程Co-Design-2027届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7598025665137068324",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型推荐算法工程师-2027届",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7599868790181202217",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型算法工程Co-Design-日常实习",
+      "city": "",
+      "department": "算法",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7600018637110888730",
+      "company": "MiniMax"
+    },
+    {
+      "title": "大模型产品经理-实习-Top Talent",
+      "city": "",
+      "department": "产品经理",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7604792657089366323",
+      "company": "MiniMax"
+    },
+    {
+      "title": "服务器运维实习生",
+      "city": "",
+      "department": "基础架构",
+      "recruit_type": "校招",
+      "source_keyword": "大模型",
+      "url": "https://vrfi1sk8a0.jobs.feishu.cn/379481/position/7628165058992523546",
+      "company": "MiniMax"
+    },
+    {
+      "id": "字节跳动:AI Agent算法和策略工程师-扣子:7c2fa7bc",
+      "company": "字节跳动",
+      "title": "AI Agent算法和策略工程师-扣子",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:Agent技术专家-剪映CapCut:fa92db36",
+      "company": "字节跳动",
+      "title": "Agent技术专家-剪映CapCut",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:HiAgent Product Solutions Architect - BytePlus (Third-Party Associate):8561a0d6",
+      "company": "字节跳动",
+      "title": "HiAgent Product Solutions Architect - BytePlus (Third-Party Associate)",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "腾讯:Senior AI Software Engineer, Coding Agent:439e6931",
+      "company": "腾讯",
+      "title": "Senior AI Software Engineer, Coding Agent",
+      "department": "技术",
+      "location": "伦敦",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:测试开发工程师-天美中台:31318a41",
+      "company": "腾讯",
+      "title": "测试开发工程师-天美中台",
+      "department": "技术",
+      "location": "深圳",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "腾讯:运营开发工程师:125c6fe7",
+      "company": "腾讯",
+      "title": "运营开发工程师",
+      "department": "技术",
+      "location": "长沙",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "阿里云:阿里云智能-云网络软硬一体化开发专家-杭州:69e20c44",
+      "company": "阿里云",
+      "title": "阿里云智能-云网络软硬一体化开发专家-杭州",
+      "department": "",
+      "location": "杭州",
+      "date": "2026-03-26",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    }
+  ],
+  "unchanged_count": 227,
+  "today_total": 304,
+  "yesterday_total": 283,
+  "summary": "新增 77 个 Agent 岗位，消失 56 个"
+}

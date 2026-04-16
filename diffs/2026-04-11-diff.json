@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-11",
+  "yesterday": "2026-04-10",
+  "first_run": false,
+  "new_jobs": [
+    {
+      "id": "字节跳动:AI Agent产品经理（特效工具）-TikTok:c5e13cae",
+      "company": "字节跳动",
+      "title": "AI Agent产品经理（特效工具）-TikTok",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:AI Agent开发工程师-抖音:a7c6f9da",
+      "company": "字节跳动",
+      "title": "AI Agent开发工程师-抖音",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "字节跳动:AI Agent开发工程师-抖音（广州）:b6d24cbf",
+      "company": "字节跳动",
+      "title": "AI Agent开发工程师-抖音（广州）",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "字节跳动:AI Agent开发工程师-抖音（深圳）:ce63f8dd",
+      "company": "字节跳动",
+      "title": "AI Agent开发工程师-抖音（深圳）",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "字节跳动:Agent技术研发工程师-火山方舟大模型平台:51284cc5",
+      "company": "字节跳动",
+      "title": "Agent技术研发工程师-火山方舟大模型平台",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "智谱AI:AI院--算法工程师-基模Agentic评测:4645c98f",
+      "company": "智谱AI",
+      "title": "AI院--算法工程师-基模Agentic评测",
+      "department": "AI院--算法工程师-基模Agentic评测 发布于 202",
+      "location": "",
+      "date": "2026-04-08",
+      "match_tier": "L1",
+      "match_reason": "keyword:Agent"
+    }
+  ],
+  "removed_jobs": [
+    {
+      "id": "字节跳动:AI Agent工程师（交易与物流供应链方向）-TikTok Shop:2aaaef9a",
+      "company": "字节跳动",
+      "title": "AI Agent工程师（交易与物流供应链方向）-TikTok Shop",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:AI平台SRE工程师-企业合作与解决方案（北京/深圳）:24e97420",
+      "company": "字节跳动",
+      "title": "AI平台SRE工程师-企业合作与解决方案（北京/深圳）",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:智能体"
+    },
+    {
+      "id": "字节跳动:Agent技术专家-剪映CapCut:fa92db36",
+      "company": "字节跳动",
+      "title": "Agent技术专家-剪映CapCut",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    },
+    {
+      "id": "字节跳动:OS Agent产品架构师-Data:324a9804",
+      "company": "字节跳动",
+      "title": "OS Agent产品架构师-Data",
+      "department": "",
+      "location": "",
+      "match_tier": "L1",
+      "match_reason": "title:Agent"
+    }
+  ],
+  "unchanged_count": 301,
+  "today_total": 307,
+  "yesterday_total": 305,
+  "summary": "新增 6 个 Agent 岗位，消失 4 个"
+}

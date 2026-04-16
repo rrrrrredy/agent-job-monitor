@@ -1,31 +1,9 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-dist/
-build/
-.eggs/
-*.egg
-venv/
-.venv/
-
-# Node
-node_modules/
-
-# OS
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
-
-# IDE
-.vscode/
-.idea/
-*.sublime-*
-
-# Runtime
-*.log
-*.tmp
-*.cache
+*.pyc
+*.pyo
+notify_daxiang.py
+snapshots/*.incomplete
+snapshots/*.v[0-9]*
+snapshots/*-merged.json
+snapshots/*-test.json
+snapshots/*_partial.json
