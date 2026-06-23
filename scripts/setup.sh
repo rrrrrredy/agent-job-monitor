@@ -49,7 +49,7 @@ else
   MISSING=1
   echo "📦 Downloading Playwright Chromium..."
   python3 -m playwright install chromium || {
-    echo "❌ Chromium download failed. Behind corporate network? Try:"
+    echo "❌ Chromium download failed. On a restricted network? Try:"
     echo "   PLAYWRIGHT_DOWNLOAD_HOST=https://your-mirror python3 -m playwright install chromium"
   }
 fi

@@ -1,8 +1,6 @@
 ---
 name: agent-job-monitor
-version: 2.1.0
-description: "AI company Agent/LLM job monitoring system. Automatically collects Agent-related job postings from ByteDance, Tencent, Alibaba, Aliyun, Zhipu AI, Kimi, MiniMax using direct APIs and Playwright browser automation. Generates daily reports with competitive analysis. Triggers: Agent job monitor, AI company hiring trends, ByteDance/Tencent/Alibaba Agent hiring, Zhipu/Kimi/MiniMax jobs, today's new jobs, AI talent competition landscape, daily job report. Not applicable: third-party job boards (BOSS/Liepin); AI news/trends/research reports; scholar background checks (use ai-talent-radar)."
-tags: [job-monitor, AI, agent, recruitment]
+description: 'AI company Agent/LLM job monitoring system. Automatically collects Agent-related job postings from ByteDance, Tencent, Alibaba, Aliyun, Zhipu AI, Kimi, MiniMax using direct APIs and Playwright browser automation. Generates daily reports with competitive analysis. Triggers: Agent job monitor, AI company hiring trends, ByteDance/Tencent/Alibaba Agent hiring, Zhipu/Kimi/MiniMax jobs, today''s new jobs, AI talent competition landscape, daily job report. Not applicable: third-party job boards (BOSS/Liepin); AI news/trends/research reports; scholar background checks (use ai-talent-radar).'
 ---
 
 # agent-job-monitor v2.1.0
@@ -10,6 +8,39 @@ tags: [job-monitor, AI, agent, recruitment]
 AI company Agent/LLM job monitoring system — daily automated collection → analysis → report generation → notification.
 
 **7/7 companies fully supported**: Tencent, ByteDance (API), Alibaba, Aliyun, Zhipu AI, Kimi (Playwright DOM), MiniMax (Feishu ATS + Playwright)
+
+---
+
+## Routing Contract
+
+### When to use
+
+- User asks for Agent/LLM hiring changes, daily new jobs, company-level Agent hiring snapshots, or competitive talent signals for the supported companies.
+- User wants to run or debug the existing collector/report pipeline in this repository.
+
+### When not to use
+
+- User asks for general AI news, product launches, funding, or research trend analysis.
+- User asks for third-party job-board scraping such as BOSS, Liepin, LinkedIn, or Lagou.
+- User asks for individual scholar/founder background research; use a talent/research skill instead.
+
+### Required inputs
+
+- Target mode: run collection, inspect a snapshot, compare dates, generate report, or debug one company.
+- Date range when comparing historical snapshots; default to today vs yesterday for daily diff.
+- Company filter when the request names one company; otherwise use all supported companies.
+
+### Output
+
+- Collection mode: snapshot path, per-company success/failure counts, and skipped companies.
+- Diff/report mode: new jobs, removed jobs, notable changes, report path, and data sources used.
+- Debug mode: failed endpoint/page, error evidence, and the next manual check.
+
+### Failure handling
+
+- If one company fails three times, skip it and continue the other companies with a warning.
+- If all companies fail, stop and report likely causes instead of producing an empty competitive report.
+- If external sites change selectors or APIs, do not fabricate results; mark the affected company as needs-maintenance.
 
 ---
 
@@ -37,7 +68,7 @@ If you have [agent-browser](https://clawhub.com) installed, you can use it for a
 
 > The collection scripts use Playwright programmatically. agent-browser is useful for manual exploration and debugging of job pages.
 
-> ⚠️ If `playwright install chromium` fails behind a corporate network:
+> ⚠️ If `playwright install chromium` fails on a restricted network:
 > ```bash
 > PLAYWRIGHT_DOWNLOAD_HOST=https://your-mirror python3 -m playwright install chromium
 > ```
@@ -92,13 +123,13 @@ bash scripts/run_daily.sh
 
 | Company | Method | Dependencies | Status |
 |---------|--------|-------------|--------|
-| Tencent | `careers.tencent.com` REST API | `requests` | ✅ Stable |
-| ByteDance | `jobs.bytedance.com` REST API | `requests` | ✅ Stable |
-| Alibaba | `talent-holding.alibaba.com` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
-| Aliyun | `careers.aliyun.com` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
-| Zhipu AI | `app.mokahr.com/zphz` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
-| Kimi | `app.mokahr.com/moonshot` Playwright DOM | `playwright` (or agent-browser) | ✅ Stable |
-| MiniMax | `vrfi1sk8a0.jobs.feishu.cn` Playwright + proxy | `playwright` (or agent-browser) + optional proxy | ✅ Stable |
+| Tencent | `careers.tencent.com` REST API | `requests` | Supported; verify each run |
+| ByteDance | `jobs.bytedance.com` REST API | `requests` | Supported; verify each run |
+| Alibaba | `talent-holding.alibaba.com` Playwright DOM | `playwright` (or agent-browser) | Supported; verify each run |
+| Aliyun | `careers.aliyun.com` Playwright DOM | `playwright` (or agent-browser) | Supported; verify each run |
+| Zhipu AI | `app.mokahr.com/zphz` Playwright DOM | `playwright` (or agent-browser) | Supported; verify each run |
+| Kimi | `app.mokahr.com/moonshot` Playwright DOM | `playwright` (or agent-browser) | Supported; verify each run |
+| MiniMax | `vrfi1sk8a0.jobs.feishu.cn` Playwright + proxy | `playwright` (or agent-browser) + optional proxy | Supported; verify each run |
 
 **Note**: Tencent/ByteDance APIs return 405 through HTTP proxy — these always use direct connection.
 
@@ -131,12 +162,12 @@ Feishu ATS Portal is a CSR app — `_signature` is JS-generated, can't be replic
 
 ## Gotchas
 
-See `gotchas.md`. Key points:
+See `references/gotchas.md`. Key points:
 
 | Issue | Solution |
 |-------|----------|
 | ByteDance/Tencent API 405 through proxy | Direct connection (no proxy for these) |
-| Alibaba 403 on direct API | Playwright DOM bypasses IP blocking |
+| Alibaba 403 on direct API | Use rendered public pages through Playwright |
 | Feishu ATS `_signature` unforgeable | Must use Playwright browser execution |
 | MiniMax jobs lack `id` field | Uses `url` as dedup key |
 | cron `--tz` doesn't affect `--at` | Write UTC time: Beijing 18:00 = `0 10 * * *` |
@@ -148,7 +179,6 @@ See `gotchas.md`. Key points:
 ```
 agent-job-monitor/
 ├── SKILL.md
-├── gotchas.md
 ├── scripts/
 │   ├── setup.sh            # Dependency installer
 │   ├── daily_collect.py    # Collection (7 companies)
@@ -157,6 +187,7 @@ agent-job-monitor/
 │   ├── notify_im.py        # IM notification helper
 │   └── run_daily.sh        # Daily entry point
 ├── references/
+│   ├── gotchas.md
 │   ├── company-endpoints.md
 │   └── schema.md
 ├── snapshots/               # Auto-created
@@ -175,7 +206,7 @@ agent-job-monitor/
 - Simplified setup: only `requests` + `playwright` needed
 
 ### v2.0.5
-- Fix: Playwright Chromium corporate network download docs
+- Fix: Playwright Chromium restricted-network download docs
 - Fix: Proxy config self-check step
 
 ### v2.0.0
